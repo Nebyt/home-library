@@ -109,6 +109,46 @@ const booksStorage = [
     publisher: "Захаров",
     publishYear: "2005",
   },
+  {
+    author: {
+      firstName: "Борис",
+      lastName: "Акунин"
+    },
+    title: "Особые поручения",
+    ISBN: "9785815908109",
+    publisher: "Захаров",
+    publishYear: "2008",
+  },
+  {
+    author: {
+      firstName: "Борис",
+      lastName: "Акунин"
+    },
+    title: "Коронация, или последний из романов",
+    ISBN: "9785815916739",
+    publisher: "Захаров",
+    publishYear: "2022",
+  },
+  {
+    author: {
+      firstName: "Борис",
+      lastName: "Акунин"
+    },
+    title: "Левиафан",
+    ISBN: "9785815916722",
+    publisher: "Захаров",
+    publishYear: "2022",
+  },
+  {
+    author: {
+      firstName: "Борис",
+      lastName: "Акунин"
+    },
+    title: "Турецкий гамбит",
+    ISBN: "9785815916685",
+    publisher: "Захаров",
+    publishYear: "2022",
+  },
 ];
 
 export default booksStorage;
