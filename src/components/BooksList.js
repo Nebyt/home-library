@@ -5,6 +5,9 @@ import BookItem from "./BookItem";
 
 const BooksList = () => (
   <div style={style.booksList}>
+    <div>
+      <label>Книг в библиотеке: {booksStorage.length}</label>
+    </div>
     {booksStorage.map(book =>
       <BookItem
         author={book.author}
