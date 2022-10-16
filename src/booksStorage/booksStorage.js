@@ -149,6 +149,86 @@ const booksStorage = [
     publisher: "Захаров",
     publishYear: "2022",
   },
+  {
+    author: {
+      firstName: "Гай",
+      lastName: "Дойчер"
+    },
+    title: "Сквозь зеркало языка",
+    ISBN: "9785171143732",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    author: {
+      firstName: "Йохан",
+      lastName: "Хёйзинга"
+    },
+    title: "Homo ludens. Человек играющий",
+    ISBN: "9785389155657",
+    publisher: "Азбука",
+    publishYear: "2020",
+  },
+  {
+    author: {
+      firstName: "Корней",
+      lastName: "Чуковский"
+    },
+    title: "Высокое искусство",
+    ISBN: "9785389104242",
+    publisher: "Азбука",
+    publishYear: "2019",
+  },
+  {
+    author: {
+      firstName: "Самуил",
+      lastName: "Маршак"
+    },
+    title: "Воспитание словом",
+    ISBN: "9785389142503",
+    publisher: "Азбука",
+    publishYear: "2018",
+  },
+  {
+    author: {
+      firstName: "Константин",
+      lastName: "Паустовский"
+    },
+    title: "Радость творчества",
+    ISBN: "9785389157576",
+    publisher: "Азбука",
+    publishYear: "2018",
+  },
+  {
+    author: {
+      firstName: "Нора",
+      lastName: "Галь"
+    },
+    title: "Слово живое и мертвое",
+    ISBN: "9785171126582",
+    publisher: "АСТ",
+    publishYear: "2020",
+  },
+  {
+    author: {
+      firstName: "Кирилл",
+      lastName: "Егерев"
+    },
+    title: "Этой кнопке нужен текст: О UX-писательстве коротко и понятно",
+    ISBN: "9785961442113",
+    publisher: "Альпина Паблишер",
+    publishYear: "2021",
+  },
+  {
+    author: {
+      firstName: "Е. А.",
+      lastName: "Найманова"
+    },
+    title: "Немецкий язык. Карманный самоучитель",
+    ISBN: "9785947769661",
+    publisher: "АСТ-ПРЕСС ШКОЛА",
+    publishYear: "2016",
+  },
 ];
 
 export default booksStorage;
