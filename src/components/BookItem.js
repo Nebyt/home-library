@@ -9,7 +9,7 @@ const BookItem = ({author, title, ISBN, publisher, publishYear}) => {
     <div style={style.bookRowItem}>
       <div {...getToggleProps()}>
         <label style={style.bookAuthor}>
-          {author.firstName} {author.lastName}
+          {author.firstName} {author.lastName}.
         </label>
         <label style={style.bookTitle}>
           {title}
@@ -21,7 +21,7 @@ const BookItem = ({author, title, ISBN, publisher, publishYear}) => {
             ISBN: {ISBN}
           </div>
           <div>
-            Издатель: {publisher}
+            Издательство: {publisher}
           </div>
           <div>
             Год издания: {publishYear}
