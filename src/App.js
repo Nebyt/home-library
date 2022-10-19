@@ -1,10 +1,10 @@
-import BooksList from './components/BooksList';
 import style from './components/style';
+import HomeLibraryMain from "./components/HomeLibraryMain";
 
 function App() {
   return (
     <div style={style.App}>
-      <BooksList />
+      <HomeLibraryMain />
     </div>
   );
 }
