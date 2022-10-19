@@ -7,17 +7,6 @@ const style = {
     backgroundColor: "black",
     color: "white"
   },
-  inputGroup: {
-    marginBottom: 10
-  },
-  input: {
-    backgroundColor: "#EFEFFF",
-    marginLeft: 10
-  },
-  error: {
-    color: "red",
-    margin: 5
-  },
   booksList: {
     backgroundColor: "white",
     border: "1px solid black",
@@ -41,6 +30,11 @@ const style = {
   bookAdditionalInfo: {
     padding: 5,
     color: '#505e69',
+  },
+  topPanel: {
+    marginBottom: 10,
+    display: "flex",
+    justifyContent: "space-between",
   },
 };
 

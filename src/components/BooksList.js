@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import style from './style';
 import booksStorage from '../booksStorage/booksStorage';
 import BookItem from "./BookItem";
-import SearchField from "./SearchField";
+import TopPanel from "./TopPanel";
 
 const BooksList = () => {
   const [filteredList, setFilteredList] = new useState(booksStorage);
@@ -23,10 +23,7 @@ const BooksList = () => {
 
   return (
     <div style={style.booksList}>
-      <div>
-        <label>Книг в библиотеке: {booksStorage.length}</label>
-        <SearchField onChange={filterBySearch}/>
-      </div>
+      <TopPanel booksAmount={booksStorage.length} onChange={filterBySearch} />
       {filteredList.map(book =>
         <BookItem
           author={book.author}
