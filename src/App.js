@@ -1,10 +1,9 @@
-// import logo from './logo.svg';
-import './App.css';
-import BooksList from "./components/BooksList";
+import BooksList from './components/BooksList';
+import style from './components/style';
 
 function App() {
   return (
-    <div className="App">
+    <div style={style.App}>
       <BooksList />
     </div>
   );

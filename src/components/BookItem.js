@@ -3,7 +3,6 @@ import style from './style';
 import useCollapse from 'react-collapsed';
 
 const BookItem = ({author, title, ISBN, publisher, publishYear}) => {
-  // const {getCollapseProps, getToggleProps, isExpanded} = useCollapse();
   const {getCollapseProps, getToggleProps} = useCollapse();
 
   return (

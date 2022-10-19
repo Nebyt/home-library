@@ -1,4 +1,11 @@
 const style = {
+  App: {
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    display: "flex",
+    fontFamily: "'Rubik', sans-serif",
+  },
   form: {
     margin: 50,
     padding: 10,
@@ -17,9 +24,10 @@ const style = {
   bookRowItem: {
     border: "1px solid #282c34",
     backgroundColor: "#98aebd",
-    borderRadius: 40,
-    padding: 30,
+    borderRadius: 30,
+    padding: 20,
     margin: 10,
+    width: "650px",
   },
   bookAuthor: {
     padding: 5,
