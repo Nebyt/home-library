@@ -6,13 +6,10 @@ const style = {
     display: "flex",
     fontFamily: "'Rubik', sans-serif",
   },
-  form: {
-    margin: 50,
-    padding: 10,
-    width: 310,
-    border: "1px solid black",
-    backgroundColor: "black",
-    color: "white"
+  HomeLibraryMain: {
+    maxWidth: "90%",
+    marginRight: "auto",
+    marginLeft: "auto",
   },
   booksList: {
     backgroundColor: "#ebf0f6",
@@ -22,6 +19,7 @@ const style = {
     padding: 30,
     margin: 50,
     marginTop: 0,
+    display: "inline-block",
   },
   bookRowItem: {
     border: "1px solid #282c34",
