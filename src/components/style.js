@@ -24,16 +24,21 @@ const style = {
   bookRowItem: {
     border: "1px solid #282c34",
     backgroundColor: "#98aebd",
-    borderRadius: 30,
+    borderRadius: 10,
     padding: 20,
     margin: 10,
     width: "650px",
   },
   bookAuthor: {
+    marginBottom: 5,
+    fontWeight: "bold",
     padding: 5,
+    fontSize: "18px"
   },
   bookTitle: {
-    padding: 5,
+    paddingLeft: 5,
+    paddingRight: 5,
+    fontSize: "20px",
   },
   bookAdditionalInfo: {
     padding: 5,

@@ -1,19 +1,24 @@
 import React from 'react';
 import style from './style';
 import useCollapse from 'react-collapsed';
+import AuthorField from "./AuthorField";
 
-const BookItem = ({author, title, ISBN, publisher, publishYear}) => {
+const BookItem = ({authors, title, ISBN, publisher, publishYear}) => {
   const {getCollapseProps, getToggleProps} = useCollapse();
 
   return (
     <div style={style.bookRowItem}>
       <div {...getToggleProps()}>
-        <label style={style.bookAuthor}>
-          {author.firstName} {author.lastName}.
-        </label>
-        <label style={style.bookTitle}>
-          {title}
-        </label>
+        <div style={style.bookAuthor}>
+          <label>
+            <AuthorField authors={authors} />
+          </label>
+        </div>
+        <div style={style.bookTitle}>
+          <label>
+            {title}
+          </label>
+        </div>
       </div>
       <div {...getCollapseProps()}>
         <div style={style.bookAdditionalInfo}>
