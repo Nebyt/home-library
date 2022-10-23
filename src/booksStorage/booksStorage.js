@@ -357,23 +357,199 @@ const booksStorage = [
   },
   {
     authors: [{
-      firstName: "",
-      lastName: ""
+      firstName: "Станислав",
+      lastName: "Зарницкий"
     }],
-    title: "",
-    ISBN: "9785",
-    publisher: "",
-    publishYear: "",
+    title: "Дюрер",
+    ISBN: "-",
+    publisher: "Молодая гвардия",
+    publishYear: "1984",
   },
   {
     authors: [{
-      firstName: "",
-      lastName: ""
+      firstName: "Рэй",
+      lastName: "Бредбери"
     }],
-    title: "",
+    title: "Короткие рассказы",
+    ISBN: "9785811266555",
+    publisher: "АЙРИС-пресс",
+    publishYear: "2017",
+  },
+  {
+    authors: [{
+      firstName: "Станислав",
+      lastName: "Лем"
+    }],
+    title: "Солярис",
+    ISBN: "9785170838998",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [{
+      firstName: "Михаил",
+      lastName: "Елизаров"
+    }],
+    title: "Земля",
+    ISBN: "97855171185442",
+    publisher: "АСТ",
+    publishYear: "2021",
+  },
+  {
+    authors: [{
+      firstName: "Владимир",
+      lastName: "Гиляровский"
+    }],
+    title: "Москва и москвичи",
+    ISBN: "9785386142346",
+    publisher: "РИПОЛ классик",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джозефф",
+        lastName: "О'Коннор"
+      },
+      {
+        firstName: "Иан",
+        lastName: "Макдермот"
+      },
+    ],
+    title: "ИСкусство системного мышления: Необходимые знания о системах и творческом подходе к решению проблем",
+    ISBN: "9785961411751",
+    publisher: "Альпина Паблишер",
+    publishYear: "2019",
+  },
+  {
+    authors: [{
+      firstName: "Зигмунд",
+      lastName: "Фрейд"
+    }],
+    title: "Семейный роман невротиков: сборник",
+    ISBN: "9785389100206",
+    publisher: "Азбука",
+    publishYear: "2021",
+  },
+  {
+    authors: [{
+      firstName: "Ричард",
+      lastName: "Докинз"
+    }],
+    title: "Бог как иллюзия",
+    ISBN: "9785389098183",
+    publisher: "Азбука",
+    publishYear: "2021",
+  },
+  {
+    authors: [{
+      firstName: "Иммануил",
+      lastName: "Кант"
+    }],
+    title: "Доказательство бытия Бога",
+    ISBN: "9785171385309",
+    publisher: "АСТ",
+    publishYear: "2021",
+  },
+  {
+    authors: [{
+      firstName: "Питер",
+      lastName: "Мейл"
+    }],
+    title: "Еще один год в Провансе",
+    ISBN: "9785389112407",
+    publisher: "Азбука",
+    publishYear: "2020",
+  },
+  {
+    authors: [{
+      firstName: "Тимур",
+      lastName: "Валитов"
+    }],
+    title: "Угловая комната",
+    ISBN: "9785171448561",
+    publisher: "АСТ",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Антония",
+      lastName: "Байетт"
+    }],
+    title: "Обладать",
+    ISBN: "9785389165960",
+    publisher: "Азбука",
+    publishYear: "2021",
+  },
+  {
+    authors: [{
+      firstName: "Квентин",
+      lastName: "Тарантино"
+    }],
+    title: "Однажды в Голлливуде",
+    ISBN: "9785604653081",
+    publisher: "Individuum",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Владимир",
+      lastName: "Набоков"
+    }],
+    title: "Бледный огонь",
     ISBN: "9785",
-    publisher: "",
-    publishYear: "",
+    publisher: "АСТ",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Роберт",
+      lastName: "Хайнлайн"
+    }],
+    title: "Дверь в лето",
+    ISBN: "9785389130173",
+    publisher: "Азбука",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Жозеф",
+      lastName: "Бедье"
+    }],
+    title: "Тристан и Изольда",
+    ISBN: "9785907143760",
+    publisher: "Аркадия",
+    publishYear: "2021",
+  },
+  {
+    authors: [{
+      firstName: "Никлас",
+      lastName: "Натт-о-Даг"
+    }],
+    title: "1793",
+    ISBN: "9785386121969",
+    publisher: "РИПОЛ классик",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Николай",
+        lastName: "Свечин"
+      },
+      {
+        firstName: "Валерий",
+        lastName: "Введинский"
+      },
+      {
+        firstName: "Иван",
+        lastName: "Погонин"
+      },
+    ],
+    title: "Повседневная жизнь Петербургской сыскной полоции",
+    ISBN: "9785041171247",
+    publisher: "Эксмо",
+    publishYear: "2021",
   },
 ];
 
