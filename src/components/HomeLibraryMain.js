@@ -15,8 +15,10 @@ const HomeLibraryMain = () => {
     // Include all elements which includes the search query
     updatedList = updatedList.filter(item =>
       item.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
-      || item.author.firstName.toLowerCase().indexOf(query.toLowerCase()) !== -1
-      || item.author.lastName.toLowerCase().indexOf(query.toLowerCase()) !== -1
+      || item.authors.filter(
+        authorItem => authorItem.firstName.toLowerCase().indexOf(query.toLowerCase()) !== -1
+        || authorItem.lastName.toLowerCase().indexOf(query.toLowerCase()) !== -1
+        ).length > 0
     );
     setFilteredList(updatedList);
   };

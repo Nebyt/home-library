@@ -7,7 +7,7 @@ const BooksList = ({books}) => {
     <div style={style.booksList}>
       {books.map(book =>
         <BookItem
-          author={book.author}
+          authors={book.authors}
           title={book.title}
           ISBN={book.ISBN}
           publisher={book.publisher}

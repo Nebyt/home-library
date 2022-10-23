@@ -1,233 +1,379 @@
 const booksStorage = [
   {
-    author: {
+    authors: [{
       firstName: "Карл",
       lastName: "Фон Клаузевиц"
-    },
+    }],
     title: "О войне",
     ISBN: "9785389191150",
     publisher: "Питер",
     publishYear: "2022",
   },
   {
-    author: {
+    authors: [{
       firstName: "Кевин",
       lastName: "Хорсли"
-    },
+    }],
     title: "Безграничная память. Запоминай быстро, помни долго",
     ISBN: "9785446119295",
     publisher: "Азбука",
     publishYear: "2021",
   },
   {
-    author: {
+    authors: [{
       firstName: "Дэвид Фостер",
       lastName: "Уоллес"
-    },
+    }],
     title: "Метла системы",
     ISBN: "9785171133146",
     publisher: "АСТ",
     publishYear: "2022",
   },
   {
-    author: {
+    authors: [{
       firstName: "Филип",
       lastName: "Дик"
-    },
+    }],
     title: "Убик",
     ISBN: "9785699856961",
     publisher: "Э",
     publishYear: "2017",
   },
   {
-    author: {
+    authors: [{
       firstName: "Павел",
       lastName: "Басинский"
-    },
+    }],
     title: "Подлинная история Анны Карениной",
     ISBN: "9785171362393",
     publisher: "АСТ",
     publishYear: "2022",
   },
   {
-    author: {
+    authors: [{
       firstName: "Лев",
       lastName: "Толстой"
-    },
+    }],
     title: "Анна Каренина",
     ISBN: "9785171123819",
     publisher: "АСТ",
     publishYear: "2021",
   },
   {
-    author: {
+    authors: [{
       firstName: "Рэй",
       lastName: "Брэдбери"
-    },
+    }],
     title: "Передай добро по кругу. Рассказы, повесть",
     ISBN: "-",
     publisher: "Молодая гвардия",
     publishYear: "1982",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Не прощаюсь",
     ISBN: "9785815915411",
     publisher: "Захаров",
     publishYear: "2019",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Планета Вода",
     ISBN: "9785815916357",
     publisher: "Захаров",
     publishYear: "2021",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Нефритовые четки",
     ISBN: "9785815916500",
     publisher: "Захаров",
     publishYear: "2022",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Статский советник",
     ISBN: "9785815904668",
     publisher: "Захаров",
     publishYear: "2005",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Особые поручения",
     ISBN: "9785815908109",
     publisher: "Захаров",
     publishYear: "2008",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Коронация, или последний из романов",
     ISBN: "9785815916739",
     publisher: "Захаров",
     publishYear: "2022",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Левиафан",
     ISBN: "9785815916722",
     publisher: "Захаров",
     publishYear: "2022",
   },
   {
-    author: {
+    authors: [{
       firstName: "Борис",
       lastName: "Акунин"
-    },
+    }],
     title: "Турецкий гамбит",
     ISBN: "9785815916685",
     publisher: "Захаров",
     publishYear: "2022",
   },
   {
-    author: {
+    authors: [{
       firstName: "Гай",
       lastName: "Дойчер"
-    },
+    }],
     title: "Сквозь зеркало языка",
     ISBN: "9785171143732",
     publisher: "АСТ",
     publishYear: "2019",
   },
   {
-    author: {
+    authors: [{
       firstName: "Йохан",
       lastName: "Хёйзинга"
-    },
+    }],
     title: "Homo ludens. Человек играющий",
     ISBN: "9785389155657",
     publisher: "Азбука",
     publishYear: "2020",
   },
   {
-    author: {
+    authors: [{
       firstName: "Корней",
       lastName: "Чуковский"
-    },
+    }],
     title: "Высокое искусство",
     ISBN: "9785389104242",
     publisher: "Азбука",
     publishYear: "2019",
   },
   {
-    author: {
+    authors: [{
       firstName: "Самуил",
       lastName: "Маршак"
-    },
+    }],
     title: "Воспитание словом",
     ISBN: "9785389142503",
     publisher: "Азбука",
     publishYear: "2018",
   },
   {
-    author: {
+    authors: [{
       firstName: "Константин",
       lastName: "Паустовский"
-    },
+    }],
     title: "Радость творчества",
     ISBN: "9785389157576",
     publisher: "Азбука",
     publishYear: "2018",
   },
   {
-    author: {
+    authors: [{
       firstName: "Нора",
       lastName: "Галь"
-    },
+    }],
     title: "Слово живое и мертвое",
     ISBN: "9785171126582",
     publisher: "АСТ",
     publishYear: "2020",
   },
   {
-    author: {
+    authors: [{
       firstName: "Кирилл",
       lastName: "Егерев"
-    },
+    }],
     title: "Этой кнопке нужен текст: О UX-писательстве коротко и понятно",
     ISBN: "9785961442113",
     publisher: "Альпина Паблишер",
     publishYear: "2021",
   },
   {
-    author: {
+    authors: [{
       firstName: "Е. А.",
       lastName: "Найманова"
-    },
+    }],
     title: "Немецкий язык. Карманный самоучитель",
     ISBN: "9785947769661",
     publisher: "АСТ-ПРЕСС ШКОЛА",
     publishYear: "2016",
+  },
+  {
+    authors: [{
+      firstName: "Лю",
+      lastName: "Цысинь"
+    }],
+    title: "Задача трех тел",
+    ISBN: "9785040891122",
+    publisher: "Э",
+    publishYear: "2017",
+  },
+  {
+    authors: [{
+      firstName: "Лю",
+      lastName: "Цысинь"
+    }],
+    title: "Темный лес",
+    ISBN: "9785040902941",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Виктор",
+      lastName: "Шейнов"
+    }],
+    title: "2022",
+    ISBN: "9785446113552",
+    publisher: "Питер",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Джулиан",
+      lastName: "Барнс"
+    }],
+    title: "Нум времени",
+    ISBN: "9785389130364",
+    publisher: "Азбука",
+    publishYear: "2017",
+  },
+  {
+    authors: [{
+      firstName: "Михаил",
+      lastName: "Булгаков"
+    }],
+    title: "Мастер и Маргарита",
+    ISBN: "9785041076986",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Михаил",
+      lastName: "Булгаков"
+    }],
+    title: "Морфий. Повести и рассказы",
+    ISBN: "9785041099138",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Дэн",
+      lastName: "Симмонс"
+    }],
+    title: "Мерзость",
+    ISBN: "9785171471583",
+    publisher: "АСТ",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Юрий",
+      lastName: "Мамлеев"
+    }],
+    title: "Голос из ничто: рассказы",
+    ISBN: "9785171447007",
+    publisher: "АСТ",
+    publishYear: "2022",
+  },
+  {
+    authors: [{
+      firstName: "Роберт",
+      lastName: "Хайнлайн"
+    }],
+    title: "Чужак в стране чужой",
+    ISBN: "9785389155244",
+    publisher: "Азбука",
+    publishYear: "2018",
+  },
+  {
+    authors: [{
+      firstName: "Стивен",
+      lastName: "Кинг"
+    }],
+    title: "Доктор Сон",
+    ISBN: "9785171181093",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [{
+      firstName: "Дэвид Дж.",
+      lastName: "Питерсон"
+    }],
+    title: "Искусство создания языков: от вымершего языка высших классов до наречия кровожадных воинов-кочевников",
+    ISBN: "9785171033941",
+    publisher: "АСТ",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ирина",
+        lastName: "Голуб"
+      },
+      {
+        firstName: "Дитмар",
+        lastName: "Розенталь"
+      },
+    ],
+    title: "Занимательная стилистика: Как мы говорим. А как мы пишем!",
+    ISBN: "9785171140700",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [{
+      firstName: "",
+      lastName: ""
+    }],
+    title: "",
+    ISBN: "9785",
+    publisher: "",
+    publishYear: "",
+  },
+  {
+    authors: [{
+      firstName: "",
+      lastName: ""
+    }],
+    title: "",
+    ISBN: "9785",
+    publisher: "",
+    publishYear: "",
   },
 ];
 
