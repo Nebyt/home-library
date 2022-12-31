@@ -1,9 +1,8 @@
-import style from './components/style';
 import HomeLibraryMain from "./components/HomeLibraryMain";
 
-function App() {
+const App = () => {
   return (
-    <div style={style.App}>
+    <div className="min-h-screen bg-gray-100">
       <HomeLibraryMain />
     </div>
   );

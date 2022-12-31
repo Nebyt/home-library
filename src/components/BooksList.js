@@ -1,18 +1,18 @@
 import React from 'react';
-import style from './style';
 import BookItem from './BookItem';
 
 const BooksList = ({books}) => {
   return (
-    <div style={style.booksList}>
+    <div className="border border-black rounded-lg w-full bg-crosses-pattern bg-stone-200 grid justify-items-center p-5">
       {books.map(book =>
         <BookItem
-          authors={book.authors}
-          title={book.title}
-          ISBN={book.ISBN}
-          publisher={book.publisher}
-          publishYear={book.publishYear}
-        />)}
+        authors={book.authors}
+        title={book.title}
+        ISBN={book.ISBN}
+        publisher={book.publisher}
+        publishYear={book.publishYear}
+        />
+      )}
     </div>
   );
 };

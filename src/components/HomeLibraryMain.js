@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import booksStorage from "../booksStorage/booksStorage";
 import TopPanel from "./TopPanel";
 import BooksList from "./BooksList";
-import style from "./style";
 
 const HomeLibraryMain = () => {
   const [filteredList, setFilteredList] = new useState(booksStorage);
@@ -24,9 +23,11 @@ const HomeLibraryMain = () => {
   };
 
   return (
-    <div style={style.HomeLibraryMain}>
-      <TopPanel booksAmount={booksStorage.length} onChange={filterBySearch} />
-      <BooksList books={filteredList}/>
+    <div className="container mx-auto">
+      <div className="grid justify-items-center">
+        <TopPanel booksAmount={booksStorage.length} onChange={filterBySearch} />
+        <BooksList books={filteredList}/>
+      </div>
     </div>
   );
 };
