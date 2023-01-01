@@ -65,7 +65,7 @@ const booksStorage = [
       lastName: "Брэдбери"
     }],
     title: "Передай добро по кругу. Рассказы, повесть",
-    ISBN: "-",
+    ISBN: "",
     publisher: "Молодая гвардия",
     publishYear: "1982",
   },
@@ -254,7 +254,7 @@ const booksStorage = [
       firstName: "Виктор",
       lastName: "Шейнов"
     }],
-    title: "2022",
+    title: "Говорить \"нет\", не испытывая чувства вины",
     ISBN: "9785446113552",
     publisher: "Питер",
     publishYear: "2022",
@@ -264,7 +264,7 @@ const booksStorage = [
       firstName: "Джулиан",
       lastName: "Барнс"
     }],
-    title: "Нум времени",
+    title: "Шум времени",
     ISBN: "9785389130364",
     publisher: "Азбука",
     publishYear: "2017",
@@ -361,7 +361,7 @@ const booksStorage = [
       lastName: "Зарницкий"
     }],
     title: "Дюрер",
-    ISBN: "-",
+    ISBN: "",
     publisher: "Молодая гвардия",
     publishYear: "1984",
   },
@@ -416,7 +416,7 @@ const booksStorage = [
         lastName: "Макдермот"
       },
     ],
-    title: "ИСкусство системного мышления: Необходимые знания о системах и творческом подходе к решению проблем",
+    title: "Искусство системного мышления: Необходимые знания о системах и творческом подходе к решению проблем",
     ISBN: "9785961411751",
     publisher: "Альпина Паблишер",
     publishYear: "2019",
@@ -546,10 +546,559 @@ const booksStorage = [
         lastName: "Погонин"
       },
     ],
-    title: "Повседневная жизнь Петербургской сыскной полоции",
+    title: "Повседневная жизнь Петербургской сыскной полиции",
     ISBN: "9785041171247",
     publisher: "Эксмо",
     publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Хауэрд Ф.",
+        lastName: "Лавкрафт"
+      },
+    ],
+    title: "По ту сторону сна",
+    translator: "В. Бернацкой",
+    ISBN: "S860800010",
+    publisher: "Петербург: Terra Incognito",
+    publishYear: "1991",
+  },
+  {
+    authors: [
+      {
+        firstName: "Патрисия",
+        lastName: "Мойес"
+      },
+    ],
+    title: "Призрак убийства",
+    ISBN: "9785171161941",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Юрий",
+        lastName: "Чабан"
+      },
+    ],
+    title: "Современный сборник типовых договоров с комментариями",
+    ISBN: "5797800063",
+    publisher: "Торговый дом Герда",
+    publishYear: "1998",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир Валентинович",
+        lastName: "Зотов"
+      },
+      {
+        firstName: "Леонтий Алексеевич",
+        lastName: "Мигунов"
+      },
+    ],
+    title: "Пособие оператора электронно-вычислительных машин",
+    ISBN: "5060018822",
+    publisher: "Высшая школа",
+    publishYear: "1993",
+  },
+  {
+    authors: [
+      {
+        firstName: "Геннадий Вадимович",
+        lastName: "Зеленко"
+      },
+      {
+        firstName: "Виктор Васильевич",
+        lastName: "Панов"
+      },
+      {
+        firstName: "Сергей Николаевич",
+        lastName: "Попов"
+      },
+    ],
+    title: "Домашний компьютер",
+    ISBN: "5256003127",
+    publisher: "Радио и связь",
+    publishYear: "1989",
+  },
+  {
+    authors: [
+      {
+        firstName: "Виталий Михайлович",
+        lastName: "Виноградов"
+      },
+    ],
+    title: "Технология Машиностроения: Введение в специальность",
+    ISBN: "9785769555909",
+    publisher: "Академия",
+    publishYear: "2008",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэн",
+        lastName: "Ричардсон"
+      },
+    ],
+    title: "ROUGH GUIDE. Санкт-Петербург",
+    ISBN: "9785170454150",
+    translator: "М. Я. Беньковская",
+    publisher: "АСТ. Астрель",
+    publishYear: "2009",
+  },
+  {
+    authors: [
+      {
+        firstName: "Министерство",
+        lastName: "связи"
+      },
+    ],
+    title: "Краткий телефонный справочник",
+    ISBN: "",
+    translator: "",
+    publisher: "Ленинградская городская телефонная сеть",
+    publishYear: "1976",
+  },
+  {
+    authors: [
+      {
+        firstName: "Инна Александровна",
+        lastName: "Розенсон"
+      },
+    ],
+    title: "Основы теории дизайна: Учебник для вузов",
+    ISBN: "9785496000192",
+    translator: "",
+    publisher: "Питер",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Стивен",
+        lastName: "Фрай"
+      },
+    ],
+    title: "Теннисные мячики небес",
+    ISBN: "9785699534531",
+    translator: "Сергей Ильин",
+    publisher: "Эксмо",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Катерина",
+        lastName: "Даймонд"
+      },
+    ],
+    title: "Учитель",
+    ISBN: "9785171199418",
+    translator: "Т. А. Осина",
+    publisher: "АСТ",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Алан",
+        lastName: "Брэдли"
+      },
+    ],
+    title: "Сорняк, обвивший сумку палача",
+    ISBN: "9785271415524",
+    translator: "Елена Измайлова",
+    publisher: "Владимир",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Роберт",
+        lastName: "Гэлбрейт"
+      },
+    ],
+    title: "Зов кукушки",
+    ISBN: "9785389094758",
+    translator: "Елена Петрова",
+    publisher: "Азбука",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "Англо-русский и русско-английский словарь для школьников",
+    ISBN: "5770770562",
+    translator: "",
+    publisher: "Аконит",
+    publishYear: "1996",
+  },
+  {
+    authors: [
+      {
+        firstName: "Адриана",
+        lastName: "Ригутти"
+      },
+    ],
+    title: "Космос. Иллюстрированный путеводитель по звездному небу",
+    ISBN: "9785991010177",
+    translator: "Антон Шигимага",
+    publisher: "Клуб семейного досуга",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "Людмила Максимовна",
+        lastName: "Фёдорова"
+      },
+      {
+        firstName: "Сергей Николаевич",
+        lastName: "Никитаев"
+      },
+    ],
+    title: "Деловой английский для аспирантов-юристов",
+    ISBN: "5472015537",
+    translator: "",
+    publisher: "Экзамен",
+    publishYear: "2006",
+  },
+  {
+    authors: [
+      {
+        firstName: "Жиль",
+        lastName: "Делёз"
+      },
+    ],
+    title: "Кино",
+    ISBN: "9785911034641",
+    translator: "Борис Скуратов",
+    publisher: "Ад Маргинем Пресс, Музей соверменного искусства \"Гараж\"",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джон Р.Р.",
+        lastName: "Толкин"
+      },
+    ],
+    title: "Неоконченные предания Нуменора и Средиземья",
+    ISBN: "9785171017231",
+    translator: "Анна Хромовая",
+    publisher: "АСТ",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джон Р.Р.",
+        lastName: "Толкин"
+      },
+    ],
+    title: "Братство кольца",
+    ISBN: "9785170818020",
+    translator: "Наталия Григорьева, Владимир Грушецкий",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джон Р.Р.",
+        lastName: "Толкин"
+      },
+    ],
+    title: "Две крепости",
+    ISBN: "9785170818037",
+    translator: "Наталия Григорьева, Владимир Грушецкий",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "LEXT-справочник. Уголовный кодекс Российской Федерации по состоянию на 1 декабря 2010 года",
+    ISBN: "9785699464692",
+    translator: "",
+    publisher: "Эксмо",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "LEXT-справочник. Уголовно-исполнительный кодекс Российской Федерации по состоянию на 2010 год",
+    ISBN: "9785699437702",
+    translator: "",
+    publisher: "Эксмо",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "LEXT-справочник. Уголовно-процессуальный кодекс Российской Федерации по состоянию на 1 декабря 2010 года",
+    ISBN: "9785699464715",
+    translator: "",
+    publisher: "Эксмо",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "Аллан",
+        lastName: "Пиз"
+      },
+      {
+        firstName: "Барбара",
+        lastName: "Пиз"
+      },
+    ],
+    title: "Новый язык телодвижений. Расширенная версия",
+    ISBN: "9785699118724",
+    translator: "Т. Новикова",
+    publisher: "Эксмо",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ю. И.",
+        lastName: "Филиппов"
+      },
+      {
+        firstName: "А. Г.",
+        lastName: "Придатко"
+      },
+      {
+        firstName: "А. Н.",
+        lastName: "Елисеев"
+      },
+      {
+        firstName: "В. А.",
+        lastName: "Лукьяновский"
+      },
+      {
+        firstName: "Е. П.",
+        lastName: "Копенкин"
+      },
+      {
+        firstName: "М. С.",
+        lastName: "Борисов"
+      },
+      {
+        firstName: "А. И.",
+        lastName: "Белых"
+      },
+      {
+        firstName: "Ю. И.",
+        lastName: "Минусаев"
+      },
+      {
+        firstName: "Ф. И.",
+        lastName: "Василевич"
+      },
+    ],
+    title: "Домашние кошки",
+    ISBN: "5260003144",
+    translator: "",
+    publisher: "Росагропромиздат",
+    publishYear: "1991",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дейл",
+        lastName: "Карнеги"
+      },
+    ],
+    title: "Как завоевывать друзей и оказывать влияние на людей...",
+    ISBN: "9856165164",
+    translator: "Д. С. Лободенко",
+    publisher: "СЛК",
+    publishYear: "1997",
+  },
+  {
+    authors: [
+      {
+        firstName: "О. К.",
+        lastName: "Петренко"
+      },
+    ],
+    title: "Англо-русский словарь по ядерным взрывам",
+    ISBN: "",
+    translator: "",
+    publisher: "Воениздат",
+    publishYear: "1977",
+  },
+  {
+    authors: [
+      {
+        firstName: "Уильям",
+        lastName: "Шекспир"
+      },
+    ],
+    title: "Том II",
+    ISBN: "",
+    translator: "А. Кронеберг, А. Дружинин, П. Вейнберг, А. Григорьев, П. Козлов",
+    publisher: "РООСА",
+    publishYear: "",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр",
+        lastName: "Иликаев"
+      },
+    ],
+    title: "Большая книга славянских мифов",
+    ISBN: "9785041019037",
+    translator: "",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Стивен",
+        lastName: "Холзнер"
+      },
+    ],
+    title: "Visual C++ 6: учебный курс",
+    ISBN: "5804600532",
+    translator: "Е. Матвеев",
+    publisher: "Питер",
+    publishYear: "2001",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр",
+        lastName: "Аузан"
+      },
+    ],
+    title: "Институционная экономика для чайников",
+    ISBN: "",
+    translator: "",
+    publisher: "Esquire",
+    publishYear: "2011",
+  },
+  {
+    authors: [
+      {
+        firstName: "Сергей Владимирович",
+        lastName: "Глушаков"
+      },
+      {
+        firstName: "Александр Викторович",
+        lastName: "Коваль"
+      },
+      {
+        firstName: "Сергей Александрович",
+        lastName: "Черепнин"
+      },
+    ],
+    title: "Программирование на Visual C++",
+    ISBN: "517007333X",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2003",
+  },
+  {
+    authors: [
+      {
+        firstName: "Сергей Иванович",
+        lastName: "Федоров"
+      },
+    ],
+    title: "Марьино",
+    ISBN: "5268004131",
+    translator: "",
+    publisher: "Советская Россия",
+    publishYear: "1989",
+  },
+  {
+    authors: [
+      {
+        firstName: "Юрий",
+        lastName: "Ревич"
+      },
+    ],
+    title: "Практическое программирование микроконтроллеров Atmel AVR на языке ассемблера",
+    ISBN: "9785977506571",
+    translator: "",
+    publisher: "БХВ-Петербург",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Всеволод Борисович",
+        lastName: "Иванов"
+      },
+    ],
+    title: "Программирование микроконтроллеров для начинающих. Визуальное проектирование, язык C, ассемблер",
+    ISBN: "9785793105590",
+    translator: "",
+    publisher: "КОРОНА-ВЕК",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "Марсель",
+        lastName: "Паке"
+      },
+    ],
+    title: "Магритт",
+    ISBN: "9785404002423",
+    translator: "С. С. Лосев, Н. А. Тихонова",
+    publisher: "АРТ-РОДНИК",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Кобо",
+        lastName: "Абэ"
+      },
+    ],
+    title: "Чужое лицо | Женщина в песках",
+    ISBN: "9785367023435",
+    translator: "В. С. Гривнин",
+    publisher: "Амфора",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Питер",
+        lastName: "Мейл"
+      },
+    ],
+    title: "Год в Провансе",
+    ISBN: "9785389083578",
+    translator: "Ирина Пандер",
+    publisher: "Азбука",
+    publishYear: "2020",
   },
 ];
 
