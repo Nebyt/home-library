@@ -18,6 +18,7 @@ const HomeLibraryMain = () => {
         authorItem => authorItem.firstName.toLowerCase().indexOf(query.toLowerCase()) !== -1
         || authorItem.lastName.toLowerCase().indexOf(query.toLowerCase()) !== -1
         ).length > 0
+      || item.ISBN.toLowerCase().indexOf(query.toLowerCase()) !== -1
     );
     setFilteredList(updatedList);
   };
