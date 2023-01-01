@@ -3,6 +3,8 @@ import SearchField from "./SearchField";
 
 const TopPanel = ({booksAmount, ...rest}) => (
   <div className="
+    sticky
+    top-0
     border
     border-black
     rounded-lg
