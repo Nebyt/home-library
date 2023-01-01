@@ -3,7 +3,7 @@ import BookItem from './BookItem';
 
 const BooksList = ({books}) => {
   const renderBooks = (listOfBooks) => {
-    if (books.length == 0) {
+    if (books.length === 0) {
       return <div>
         <label className="text-2xl font-semibold">Книги не найдены</label>
       </div>
