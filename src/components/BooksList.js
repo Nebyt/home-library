@@ -8,6 +8,7 @@ const BooksList = ({books}) => {
         <BookItem
         authors={book.authors}
         title={book.title}
+        translator={book.translator}
         ISBN={book.ISBN}
         publisher={book.publisher}
         publishYear={book.publishYear}

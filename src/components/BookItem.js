@@ -2,8 +2,15 @@ import React from 'react';
 import useCollapse from 'react-collapsed';
 import AuthorField from "./AuthorField";
 
-const BookItem = ({authors, title, ISBN, publisher, publishYear}) => {
+const BookItem = ({authors, title, translator, ISBN, publisher, publishYear}) => {
   const {getCollapseProps, getToggleProps} = useCollapse();
+  const renderIfSet = (fieldName, fieldValue) => {
+    if (fieldValue && fieldValue !== "") {
+      return <div>
+        {fieldName}: {fieldValue}
+      </div>
+    }
+  };
 
   return (
     <div className="border border-black rounded-lg w-full bg-aztec-pattern bg-blue-300 p-3 m-2.5">
@@ -21,15 +28,10 @@ const BookItem = ({authors, title, ISBN, publisher, publishYear}) => {
       </div>
       <div {...getCollapseProps()}>
         <div className="text-base text-stone-600 break-words">
-          <div>
-            ISBN: {ISBN}
-          </div>
-          <div>
-            Издательство: {publisher}
-          </div>
-          <div>
-            Год издания: {publishYear}
-          </div>
+          {renderIfSet("Переводчик", translator)}
+          {renderIfSet("ISBN", ISBN)}
+          {renderIfSet("Издательство", publisher)}
+          {renderIfSet("Год издания", publishYear)}
         </div>
       </div>
     </div>
