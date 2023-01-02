@@ -1100,6 +1100,914 @@ const booksStorage = [
     publisher: "Азбука",
     publishYear: "2020",
   },
+  {
+    authors: [
+      {
+        firstName: "Анатолий Васильевич",
+        lastName: "Митяев"
+      },
+    ],
+    title: "Тысяча четыреста восемнадцать дней",
+    ISBN: "",
+    translator: "",
+    publisher: "Детская литература",
+    publishYear: "1987",
+  },
+  {
+    authors: [
+      {
+        firstName: "Сергей",
+        lastName: "Зотов"
+      },
+    ],
+    title: "Манускрипт Войнича",
+    ISBN: "9785171021443",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Вильям",
+        lastName: "Теккерей"
+      },
+    ],
+    title: "Ярмарка тщеславия. Том 2",
+    ISBN: "",
+    translator: "Р. М. Гальперинаб М. Ф. Лорие",
+    publisher: "Государственное издательство художественной литературы",
+    publishYear: "1953",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джеймс",
+        lastName: "Джойс"
+      },
+    ],
+    title: "Улисс",
+    ISBN: "5250021816",
+    translator: "В. Хинкис, С. Хоружий",
+    publisher: "Республика",
+    publishYear: "1993",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эдгар",
+        lastName: "Берроуз"
+      },
+    ],
+    title: "Боги на Марсе",
+    ISBN: "5855050106",
+    translator: "Э. К. Бродерсон",
+    publisher: "ЛИК",
+    publishYear: "1992",
+  },
+  {
+    authors: [
+      {
+        firstName: "Питер",
+        lastName: "Мейл"
+      },
+    ],
+    title: "Прованс навсегда",
+    ISBN: "9785389101418",
+    translator: "Юрий Балаян",
+    publisher: "Азбука",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Питер",
+        lastName: "Мейл"
+      },
+    ],
+    title: "Мои двадцать пять лет в Провансе",
+    ISBN: "9785389173590",
+    translator: "Нина Жутовская",
+    publisher: "Азбука",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Роберт",
+        lastName: "Хайнлайн"
+      },
+    ],
+    title: "Неприятная профессия Джонатана Хога",
+    ISBN: "9785040975518",
+    translator: "М. Пчелинцев",
+    publisher: "Эксмо",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэн",
+        lastName: "Симмонс"
+      },
+    ],
+    title: "Друд, или Человек в черном",
+    ISBN: "9785389127371",
+    translator: "Мария Куренная",
+    publisher: "Азбука",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэн",
+        lastName: "Симмонс"
+      },
+    ],
+    title: "Пятое сердце",
+    ISBN: "9785389138711",
+    translator: "Елена Доброхотова-Майкова",
+    publisher: "Азбука",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Роджер",
+        lastName: "Желязны"
+      },
+    ],
+    title: "Хроники Амбера",
+    ISBN: "9785699067787",
+    translator: "И. Тогоева, Ю. Соколов, Н. Сосновская, А. Пчелинцев, М. Пчелинцев, В. Гольдич, И. Оганесова, Н. Белякова, М. Гутов, Е. Доброхотова-Майкова, Е. Волковыский",
+    publisher: "Эксмо",
+    publishYear: "2015",
+  },
+  {
+    authors: [
+      {
+        firstName: "Константин Михайлович",
+        lastName: "Симонов"
+      },
+    ],
+    title: "Двадцать дней без войны",
+    ISBN: "9785389077133",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Кирстен",
+        lastName: "Брэдбери"
+      },
+    ],
+    title: "Дали",
+    ISBN: "9785170490011",
+    translator: "О. Ф. Иоффе",
+    publisher: "АСТ",
+    publishYear: "2011",
+  },
+  {
+    authors: [
+      {
+        firstName: "Борис",
+        lastName: "Иванов"
+      },
+    ],
+    title: "Введение в японскую анимацию",
+    ISBN: "5901631013",
+    translator: "",
+    publisher: "Эйзенштейновский центр исследования кинокультуры",
+    publishYear: "2001",
+  },
+  {
+    authors: [
+      {
+        firstName: "Евгений Иванович",
+        lastName: "Замятин"
+      },
+    ],
+    title: "Мы",
+    ISBN: "9785170885060",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "У",
+        lastName: "Чэнъэнь"
+      },
+    ],
+    title: "Сунь Укун - царь обезьян",
+    ISBN: "9785389066106",
+    translator: "А. Рогачев, И. Смирнов, А. Штейнберг",
+    publisher: "Иностранка",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Энн",
+        lastName: "Маккефри"
+      },
+    ],
+    title: "Полет дракона",
+    ISBN: "5835200439",
+    translator: "Юрий Барабаш, Михаил Нахмансон",
+    publisher: "Северо-Запад",
+    publishYear: "1992",
+  },
+  {
+    authors: [
+      {
+        firstName: "Энн",
+        lastName: "Маккефри"
+      },
+    ],
+    title: "Странствия дракона",
+    ISBN: "5835200501",
+    translator: "Михаил Нахмансон",
+    publisher: "Северо-Запад",
+    publishYear: "1992",
+  },
+  {
+    authors: [
+      {
+        firstName: "Энн",
+        lastName: "Маккефри"
+      },
+    ],
+    title: "Белый дракон",
+    ISBN: "5835201672",
+    translator: "Галя Трубицына",
+    publisher: "Северо-Запад",
+    publishYear: "1993",
+  },
+  {
+    authors: [
+      {
+        firstName: "Карл",
+        lastName: "Маркс"
+      },
+    ],
+    title: "Нищета философии",
+    ISBN: "9785699883721",
+    translator: "В. Засулич",
+    publisher: "Эксмо",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир",
+        lastName: "Савельев"
+      },
+    ],
+    title: "Статистика и котики",
+    ISBN: "9785171082871",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джордж",
+        lastName: "Клейсон"
+      },
+    ],
+    title: "Самый богатый человек в Вавилоне",
+    ISBN: "9789851545441",
+    translator: "С. Э. Борич",
+    publisher: "Попурри",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэвид",
+        lastName: "Смит"
+      },
+      {
+        firstName: "Фил",
+        lastName: "Эванс"
+      },
+    ],
+    title: "\"Капитал\" Маркса в комиксах",
+    ISBN: "9785699918768",
+    translator: "З. Мамедьяров",
+    publisher: "Эксмо",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Beatrix",
+        lastName: "Potter"
+      },
+    ],
+    title: "Peter Hase - Sämtliche Abenteuer",
+    ISBN: "9783730601068",
+    translator: "",
+    publisher: "Anaconda",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Леонид Владимирович",
+        lastName: "Рожников"
+      },
+    ],
+    title: "Подробный иллюстрированный комментарий к роману в стихах \"Евгений Онегин\"",
+    ISBN: "9785392257423",
+    translator: "",
+    publisher: "Проспект",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эдгар",
+        lastName: "По"
+      },
+    ],
+    title: "Рассказы",
+    ISBN: "",
+    translator: "Р. Облонская, М. Беккер, И. Гуровая, Э. Березина, В. Рогов, Н. Галь, Р. Гальперина, М. Богословская, Р. Померанцева, Е. Суриц, В. Хинкис, А. Старцев, И. Бернштейн, З. Александрова",
+    publisher: "Художественная литература",
+    publishYear: "1980",
+  },
+  {
+    authors: [
+      {
+        firstName: "Алексей Петрович",
+        lastName: "Павлов"
+      },
+    ],
+    title: "Природа землетрясений и землетрясения в Японии",
+    ISBN: "",
+    translator: "",
+    publisher: "Москва",
+    publishYear: "1924",
+  },
+  {
+    authors: [
+      {
+        firstName: "Михаил Юрьевич",
+        lastName: "Лермонтов"
+      },
+    ],
+    title: "Демон",
+    ISBN: "",
+    translator: "",
+    publisher: "Чечено-Ингушское книжное издательство",
+    publishYear: "1975",
+  },
+  {
+    authors: [
+      {
+        firstName: "Фрэнсис Скотт",
+        lastName: "Фицджеральд"
+      },
+    ],
+    title: "Избранные произведения том третий",
+    ISBN: "5857910056",
+    translator: "Много переводчиков",
+    publisher: "Сварог",
+    publishYear: "1993",
+  },
+  {
+    authors: [
+      {
+        firstName: "Олесь",
+        lastName: "Бенюх"
+      },
+    ],
+    title: "Джун и Марвин",
+    ISBN: "",
+    translator: "",
+    publisher: "Молодая гвардия",
+    publishYear: "1980",
+  },
+  {
+    authors: [
+      {
+        firstName: "Федор Михайлович",
+        lastName: "Достоевский"
+      },
+    ],
+    title: "Идиот",
+    ISBN: "",
+    translator: "",
+    publisher: "Государственное издательство художественной литературы",
+    publishYear: "1955",
+  },
+  {
+    authors: [
+      {
+        firstName: "Теодор",
+        lastName: "Драйзер"
+      },
+    ],
+    title: "Сестра Керри",
+    ISBN: "",
+    translator: "",
+    publisher: "Государственное издательство художественной литературы Литовской ССР",
+    publishYear: "1953",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэн",
+        lastName: "Симмонс"
+      },
+    ],
+    title: "Террор",
+    ISBN: "9785389203426",
+    translator: "Мария Куренная",
+    publisher: "Азбука",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Вильям",
+        lastName: "Теккерей"
+      },
+    ],
+    title: "Ярмарка тщеславия. Том 1",
+    ISBN: "",
+    translator: "Р. М. Гальперинаб М. Ф. Лорие",
+    publisher: "Государственное издательство художественной литературы",
+    publishYear: "1953",
+  },
+  {
+    authors: [
+      {
+        firstName: "Артур",
+        lastName: "Кларк"
+      },
+    ],
+    title: "Лунная пыль. Рассказы",
+    ISBN: "",
+    translator: "Л. Жданов",
+    publisher: "Знание",
+    publishYear: "1965",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр Иванович",
+        lastName: "Куприн"
+      },
+    ],
+    title: "Повести и рассказы",
+    ISBN: "",
+    translator: "",
+    publisher: "Совесткая Россия",
+    publishYear: "1987",
+  },
+  {
+    authors: [
+      {
+        firstName: "Михаил Афанасьевич",
+        lastName: "Булгаков"
+      },
+    ],
+    title: "ЖЗЛ. Жизнь господина де Мольера",
+    ISBN: "",
+    translator: "",
+    publisher: "Молодая гвардия",
+    publishYear: "1962",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ева",
+        lastName: "Кюри"
+      },
+    ],
+    title: "Мария Кюри",
+    ISBN: "",
+    translator: "Е. Ф. Корш",
+    publisher: "Атомиздат",
+    publishYear: "1973",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир Петрович",
+        lastName: "Карцев"
+      },
+    ],
+    title: "ЖЗЛ. Кржижановский",
+    ISBN: "",
+    translator: "",
+    publisher: "Молодая гвардия",
+    publishYear: "1980",
+  },
+  {
+    authors: [
+      {
+        firstName: "Уильям Сомерсет",
+        lastName: "Моэм"
+      },
+    ],
+    title: "Бремя страстей человеческих",
+    ISBN: "",
+    translator: "Е. Голышева, Б. Изаков",
+    publisher: "Лениздат",
+    publishYear: "1984",
+  },
+  {
+    authors: [
+      {
+        firstName: "Илья",
+        lastName: "Ильф"
+      },
+      {
+        firstName: "Евгений",
+        lastName: "Петров"
+      },
+    ],
+    title: "Двенадцать стульев; Золотой теленок",
+    ISBN: "",
+    translator: "",
+    publisher: "Мысль",
+    publishYear: "1983",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр Сергеевич",
+        lastName: "Пушкин"
+      },
+    ],
+    title: "Лирика",
+    ISBN: "",
+    translator: "",
+    publisher: "Детская литература",
+    publishYear: "1978",
+  },
+  {
+    authors: [
+      {
+        firstName: "Сонали",
+        lastName: "Дераньягала"
+      },
+    ],
+    title: "Волна. О немыслимой потере и исцеляющей силе памяти",
+    ISBN: "9785001691846",
+    translator: "Мария Сухотина",
+    publisher: "Манн, Иванов и Фербер",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ирвин",
+        lastName: "Ялом"
+      },
+    ],
+    title: "Все мы творения на день",
+    ISBN: "9785041020880",
+    translator: "Е. Перова",
+    publisher: "Эксмо",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ирвин",
+        lastName: "Ялом"
+      },
+    ],
+    title: "Вглядываясь в солнце. Жизнь без страха смерти",
+    ISBN: "9785041021221",
+    translator: "А. Петренко, Э. Мельник",
+    publisher: "Эксмо",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ефрем Павлович",
+        lastName: "Левитан"
+      },
+    ],
+    title: "Астрономия. Учебник для 11 класса общеобразовательных учреждений",
+    ISBN: "5090049130",
+    translator: "",
+    publisher: "Просвещение",
+    publishYear: "1994",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дафна",
+        lastName: "де Морье"
+      },
+    ],
+    title: "Не позже полуночи. Рассказы",
+    ISBN: "5289004467",
+    translator: "Много переводчиков",
+    publisher: "Лениздат",
+    publishYear: "1989",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир Федорович",
+        lastName: "Тендряков"
+      },
+    ],
+    title: "Покушение на миражи",
+    ISBN: "5265000733",
+    translator: "",
+    publisher: "Советский писатель",
+    publishYear: "1988",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ник",
+        lastName: "Кварри"
+      },
+      {
+        firstName: "Эд",
+        lastName: "Макбейн"
+      },
+      {
+        firstName: "Дик",
+        lastName: "Френсис"
+      },
+    ],
+    title: "Головоломка. Сборник зарубежных детективов",
+    ISBN: "",
+    translator: "Аркадий Гершман, Дмитрий Павленко, Михаил Загота",
+    publisher: "Книголюб",
+    publishYear: "1990",
+  },
+  {
+    authors: [
+      {
+        firstName: "Айзек",
+        lastName: "Азимов"
+      },
+      {
+        firstName: "Джеймс",
+        lastName: "Блиш"
+      },
+      {
+        firstName: "Рэй",
+        lastName: "Брэдберри"
+      },
+      {
+        firstName: "Мартин",
+        lastName: "Гарднер"
+      },
+      {
+        firstName: "Гарри",
+        lastName: "Гаррисон"
+      },
+      {
+        firstName: "Артур",
+        lastName: "Кларк"
+      },
+      {
+        firstName: "Урсула",
+        lastName: "ле Гуин"
+      },
+      {
+        firstName: "Ричард",
+        lastName: "Матесон"
+      },
+      {
+        firstName: "Льюис",
+        lastName: "Пэджетт"
+      },
+      {
+        firstName: "Артур",
+        lastName: "Порджесс"
+      },
+      {
+        firstName: "Эрик",
+        lastName: "Рассел"
+      },
+      {
+        firstName: "Клиффорд",
+        lastName: "Саймак"
+      },
+      {
+        firstName: "Уильям",
+        lastName: "Тэнн"
+      },
+      {
+        firstName: "Роберт",
+        lastName: "Шекли"
+      },
+      {
+        firstName: "Джек",
+        lastName: "Финней"
+      },
+      {
+        firstName: "Роберт",
+        lastName: "Янг"
+      },
+    ],
+    title: "Стрела времению. Сборник научно-фантастичеких рассказов",
+    ISBN: "",
+    translator: "Много переводчиков",
+    publisher: "Правда",
+    publishYear: "1989",
+  },
+  {
+    authors: [
+      {
+        firstName: "Рене",
+        lastName: "Менар"
+      },
+    ],
+    title: "Мифы в искусстве старом и новом",
+    ISBN: "5289017380",
+    translator: "",
+    publisher: "Лениздат",
+    publishYear: "1994",
+  },
+  {
+    authors: [
+      {
+        firstName: "Кэролин",
+        lastName: "Ларрингтон"
+      },
+    ],
+    title: "Скандинаские мифы. От Тора и Локи до Толкина и \"Игры престолов\"",
+    ISBN: "9785001692874",
+    translator: "Ольга Чумичева",
+    publisher: "Манн, Иванов и Фербер",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир",
+        lastName: "Плунгян"
+      },
+    ],
+    title: "Почему языки такие разные. Популярная лингвистика",
+    ISBN: "9785780512189",
+    translator: "",
+    publisher: "Русистика",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Вениамин Александрович",
+        lastName: "Каверин"
+      },
+    ],
+    title: "Два капитана",
+    ISBN: "9785433505599",
+    translator: "",
+    publisher: "Нигма",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Терри",
+        lastName: "Пратчетт"
+      },
+    ],
+    title: "Творцы заклинаний",
+    ISBN: "9785699789115",
+    translator: "И. Кравцова, В. Вольфсон",
+    publisher: "Эксклюзивное издание",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Наталья Николаева",
+        lastName: "Мельникова"
+      },
+    ],
+    title: "300 рецептов французской кухни",
+    ISBN: "5704200923",
+    translator: "",
+    publisher: "Прометей",
+    publishYear: "1990",
+  },
+  {
+    authors: [
+      {
+        firstName: "Нагата",
+        lastName: "Хироси"
+      },
+    ],
+    title: "История философской мысли Японии",
+    ISBN: "5010015900",
+    translator: "А. Н. Игнатович, Б. П. Лаврентьев, Т. А. Розанова",
+    publisher: "Прогресс",
+    publishYear: "1991",
+  },
+  {
+    authors: [
+      {
+        firstName: "Сергей",
+        lastName: "Иванов"
+      },
+    ],
+    title: "В бесконечном лесу и другие истории о 6-м \"В\"",
+    ISBN: "5080015365",
+    translator: "",
+    publisher: "Детская литература",
+    publishYear: "1991",
+  },
+  {
+    authors: [
+      {
+        firstName: "Осип",
+        lastName: "Мандельштам"
+      },
+    ],
+    title: "Камень",
+    ISBN: "5020280232",
+    translator: "",
+    publisher: "Наука",
+    publishYear: "1990",
+  },
+  {
+    authors: [
+      {
+        firstName: "Уилки",
+        lastName: "Коллинз"
+      },
+    ],
+    title: "Лунный камень",
+    ISBN: "5268000306",
+    translator: "Мариэтта Шагинян",
+    publisher: "Русская книга",
+    publishYear: "1992",
+  },
+  {
+    authors: [
+      {
+        firstName: "Аркадий",
+        lastName: "Бухов"
+      },
+    ],
+    title: "Жуки на булавках",
+    ISBN: "",
+    translator: "",
+    publisher: "Художественная литература",
+    publishYear: "1971",
+  },
+  {
+    authors: [
+      {
+        firstName: "Мартти",
+        lastName: "Ларни"
+      },
+    ],
+    title: "Рассказы",
+    ISBN: "5852300535",
+    translator: "В. Богачев",
+    publisher: "Прейскурантиздат",
+    publishYear: "1991",
+  },
+  {
+    authors: [
+      {
+        firstName: "Георгий Иванович",
+        lastName: "Иванов"
+      },
+    ],
+    title: "Камень-Гром",
+    ISBN: "5878970015",
+    translator: "",
+    publisher: "Стройиздат СпБ",
+    publishYear: "1994",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр Борисович",
+        lastName: "Салтыков"
+      },
+    ],
+    title: "Самое близкое искусство",
+    ISBN: "",
+    translator: "",
+    publisher: "Просвещение",
+    publishYear: "1969",
+  },
 ];
 
 export default booksStorage;
