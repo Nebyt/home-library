@@ -360,7 +360,7 @@ const booksStorage = [
       firstName: "Станислав",
       lastName: "Зарницкий"
     }],
-    title: "Дюрер",
+    title: "ЖЗЛ. Дюрер",
     ISBN: "",
     publisher: "Молодая гвардия",
     publishYear: "1984",
@@ -528,6 +528,7 @@ const booksStorage = [
     }],
     title: "1793",
     ISBN: "9785386121969",
+    translator: "Сергей Штерн",
     publisher: "РИПОЛ классик",
     publishYear: "2020",
   },
@@ -2007,6 +2008,270 @@ const booksStorage = [
     translator: "",
     publisher: "Просвещение",
     publishYear: "1969",
+  },
+  {
+    authors: [
+      {
+        firstName: "Рэй",
+        lastName: "Брэдбери"
+      },
+    ],
+    title: "К западу от Октября",
+    ISBN: "9785699396863",
+    translator: "Елена Петрова",
+    publisher: "Эксмо",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Рэй",
+        lastName: "Брэдбери"
+      },
+    ],
+    title: "Канун дня всех святых",
+    ISBN: "978504173109",
+    translator: "Арам Оганян",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Элиезер",
+        lastName: "Юдковский"
+      },
+    ],
+    title: "Гарри Поттер и методы рационального мышления. Книга первая",
+    ISBN: "",
+    translator: "Коллектив переводчиков",
+    publisher: "ИП \"Самин Михаил Иванович\"",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Элиезер",
+        lastName: "Юдковский"
+      },
+    ],
+    title: "Гарри Поттер и методы рационального мышления. Книга вторая",
+    ISBN: "",
+    translator: "Коллектив переводчиков",
+    publisher: "ИП \"Самин Михаил Иванович\"",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Элиезер",
+        lastName: "Юдковский"
+      },
+    ],
+    title: "Гарри Поттер и методы рационального мышления. Книга третья",
+    ISBN: "",
+    translator: "Коллектив переводчиков",
+    publisher: "ИП \"Самин Михаил Иванович\"",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Агата",
+        lastName: "Кристи"
+      },
+    ],
+    title: "Рождество Эркюля Пуаро",
+    ISBN: "9785041060978",
+    translator: "Александр Викторович Бушуев",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир",
+        lastName: "Набоков"
+      },
+    ],
+    title: "Приглашение на казнь",
+    ISBN: "9785171378332",
+    translator: "",
+    publisher: "2022",
+    publishYear: "АСТ",
+  },
+  {
+    authors: [
+      {
+        firstName: "Максим",
+        lastName: "Ильяхов"
+      },
+      {
+        firstName: "Людмила",
+        lastName: "Сарычева"
+      },
+    ],
+    title: "Пиши, сокращай. Как создавать сильный текст",
+    ISBN: "9785961465266",
+    translator: "",
+    publisher: "Альпина Паблишер",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Рид",
+        lastName: "Кинг"
+      },
+    ],
+    title: "Ранее известная как Америка",
+    ISBN: "978041071820",
+    translator: "М. Бондарев",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Николай",
+        lastName: "Свечин"
+      },
+    ],
+    title: "Дело Варнавинского маньяка",
+    ISBN: "9785041727185",
+    translator: "",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Федор Михайлович",
+        lastName: "Достоевский"
+      },
+    ],
+    title: "Записки из подполья",
+    ISBN: "9785170970186",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Никлас",
+        lastName: "Натт-О-Даг"
+      },
+    ],
+    title: "1795",
+    ISBN: "9785386145248",
+    translator: "Сергей Штерн",
+    publisher: "РИПОЛ классик",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Никлас",
+        lastName: "Натт-О-Даг"
+      },
+    ],
+    title: "1794",
+    ISBN: "9785386137328",
+    translator: "Сергей Штерн",
+    publisher: "РИПОЛ классик",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Рагнар",
+        lastName: "Йонассон"
+      },
+    ],
+    title: "Снежная слепота",
+    ISBN: "9785389199651",
+    translator: "Борис Жаров",
+    publisher: "Азбука",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Рагнар",
+        lastName: "Йонассон"
+      },
+    ],
+    title: "Мгла",
+    ISBN: "9785389199699",
+    translator: "Вадим Грушевский",
+    publisher: "Азбука",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Рагнар",
+        lastName: "Йонассон"
+      },
+    ],
+    title: "Остров",
+    ISBN: "9785389207226",
+    translator: "Вадим Грушевский",
+    publisher: "Азбука",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джулия",
+        lastName: "Бойд"
+      },
+    ],
+    title: "Записки из третьего рейха. Жизнь накануне войны глазами обычных туристов",
+    ISBN: "9785040987061",
+    translator: "А. Андреев",
+    publisher: "Эксмо",
+    publishYear: "2023",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ханс",
+        lastName: "Фаллада"
+      },
+    ],
+    title: "Один в Берлине (Каждый умирает в одиночку)",
+    ISBN: "9785906837042",
+    translator: "Нина Федорова",
+    publisher: "Синдбад",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ханс",
+        lastName: "Фаллада"
+      },
+    ],
+    title: "Кошмар в Берлине",
+    ISBN: "9785001310020",
+    translator: "Дарья Андреева",
+    publisher: "Синдбад",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эрик",
+        lastName: "Ларсон"
+      },
+    ],
+    title: "В саду чудовищ. Любовь и террор в гитлеровском Берлине",
+    ISBN: "9785961454529",
+    translator: "Алексей Капанадзе",
+    publisher: "Альпина Паблишер",
+    publishYear: "2022",
   },
 ];
 
