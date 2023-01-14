@@ -2273,6 +2273,461 @@ const booksStorage = [
     publisher: "Альпина Паблишер",
     publishYear: "2022",
   },
+  {
+    authors: [
+      {
+        firstName: "Александр Романович",
+        lastName: "Беляев"
+      },
+    ],
+    title: "Человек-амфибия",
+    ISBN: "",
+    translator: "",
+    publisher: "Карелия",
+    publishYear: "1974",
+  },
+  {
+    authors: [
+      {
+        firstName: "Кормак",
+        lastName: "Маккарти"
+      },
+    ],
+    title: "Дорога",
+    ISBN: "9785998500435",
+    translator: "Юлия Степаненко",
+    publisher: "Азбука",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дуглас",
+        lastName: "Адамс"
+      },
+    ],
+    title: "Автостопом по галактике. Ресторан \"У конца Вселенной\"",
+    ISBN: "9785170324583",
+    translator: "В. И. Баканов, В. И. Генкин, С. В. Силакова",
+    publisher: "АСТ",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Виктор",
+        lastName: "Пелевин"
+      },
+    ],
+    title: "Generation \"П\"",
+    ISBN: "5956000910",
+    translator: "",
+    publisher: "Вагриус",
+    publishYear: "2003",
+  },
+  {
+    authors: [
+      {
+        firstName: "Генри",
+        lastName: "Форд"
+      },
+    ],
+    title: "Моя жизнь. Мои достижения",
+    ISBN: "9785170823468",
+    translator: "Е. А. Качелин",
+    publisher: "АиФ. Я люблю читать",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Грейс",
+        lastName: "Келли"
+      },
+    ],
+    title: "Принцесса Монако",
+    ISBN: "9785170838141",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Франц",
+        lastName: "Кафка"
+      },
+    ],
+    title: "Превращение",
+    ISBN: "9785699547937",
+    translator: "",
+    publisher: "Эксмо",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владлен Тереньтевич",
+        lastName: "Логинов"
+      },
+    ],
+    title: "Ленин в 1917 году. На грани возможного",
+    ISBN: "9785906880628",
+    translator: "",
+    publisher: "Алгоритм",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Олдос",
+        lastName: "Хаксли"
+      },
+    ],
+    title: "Вечная философия",
+    ISBN: "9785170796601",
+    translator: "Е. Д. Сыромятникова",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэниел",
+        lastName: "Киз"
+      },
+    ],
+    title: "Таинственная история Билли Миллигана",
+    ISBN: "9785699432943",
+    translator: "А. Бойков, А. Кострова",
+    publisher: "Эксмо",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Сергей",
+        lastName: "Есенин"
+      },
+    ],
+    title: "Собрание сочинений в 2-х томах. Том 2. Стихотворения. Проза. Статьи. Письма",
+    ISBN: "5268011537",
+    translator: "",
+    publisher: "Современник",
+    publishYear: "1990",
+  },
+  {
+    authors: [
+      {
+        firstName: "Борис",
+        lastName: "Акунин"
+      },
+    ],
+    title: "Инь и Ян",
+    ISBN: "9785815911284",
+    translator: "",
+    publisher: "Захаров",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Herbert George",
+        lastName: "Wells"
+      },
+    ],
+    title: "The Invisible Man",
+    ISBN: "9785521053919",
+    translator: "",
+    publisher: "T8RUGRAM",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "Isaac",
+        lastName: "Asimov"
+      },
+    ],
+    title: "I, Robot",
+    ISBN: "9785949621813",
+    translator: "",
+    publisher: "Антология",
+    publishYear: "2011",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "Три комедии. Сборник сценариев",
+    ISBN: "",
+    translator: "",
+    publisher: "Искусство",
+    publishYear: "1969",
+  },
+  {
+    authors: [
+      {
+        firstName: "Мэтт",
+        lastName: "Морган"
+      },
+    ],
+    title: "Реанимация: истории на грании жизни и смерти",
+    ISBN: "9785041052904",
+    translator: "О. Я. Ляшенко",
+    publisher: "Эксмо",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джеймс",
+        lastName: "Боуэн"
+      },
+    ],
+    title: "Уличный кот по имени Боб. Как человек и кот обрели надежду на улицах Лондона",
+    ISBN: "9785386060947",
+    translator: "Е. И. Колябина",
+    publisher: "РИПОЛ классик",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Стивен",
+        lastName: "Хокинг"
+      },
+    ],
+    title: "Краткая история времени. От Большого взрыва до черных дыр",
+    ISBN: "9785171022846",
+    translator: "Н. Смородинская",
+    publisher: "АСТ",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Стивен",
+        lastName: "Хокинг"
+      },
+    ],
+    title: "Теория всего",
+    ISBN: "9785171023409",
+    translator: "Е. В. Шимановская",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Айзек",
+        lastName: "Азимов"
+      },
+    ],
+    title: "Я, робот",
+    ISBN: "9785041000141",
+    translator: "А. И. Иорданский",
+    publisher: "Эксмо",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эрих Мария",
+        lastName: "Ремарк"
+      },
+    ],
+    title: "Черный обелиск. Ночь в Лиссабоне",
+    ISBN: "9785170311644",
+    translator: "В. Станевич, Ю. Плашевский",
+    publisher: "АСТ",
+    publishYear: "2009",
+  },
+  {
+    authors: [
+      {
+        firstName: "Стивен",
+        lastName: "Кинг"
+      },
+    ],
+    title: "Парень из Колорадо",
+    ISBN: "9785170951697",
+    translator: "В. Вебер",
+    publisher: "АСТ",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Чак",
+        lastName: "Паланик"
+      },
+    ],
+    title: "Рэнт: Биография Бастера Кейси",
+    ISBN: "9785170464920",
+    translator: "Е. Мартинкевич",
+    publisher: "АСТ",
+    publishYear: "2007",
+  },
+  {
+    authors: [
+      {
+        firstName: "Григорий",
+        lastName: "Остер"
+      },
+    ],
+    title: "Сказка с подробностями",
+    ISBN: "9785389011052",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Richard",
+        lastName: "Strauss"
+      },
+    ],
+    title: "Salome",
+    ISBN: "",
+    translator: "",
+    publisher: "",
+    publishYear: "",
+  },
+  {
+    authors: [
+      {
+        firstName: "Инна Александровна",
+        lastName: "Зотова"
+      },
+    ],
+    title: "Покупателю о фотокинотоварах",
+    ISBN: "",
+    translator: "",
+    publisher: "Экономика",
+    publishYear: "1987",
+  },
+  {
+    authors: [
+      {
+        firstName: "Терри",
+        lastName: "Пратчетт"
+      },
+    ],
+    title: "Шмяк!",
+    ISBN: "9785699685851",
+    translator: "В. С. Сергеева",
+    publisher: "Эксмо",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Терри",
+        lastName: "Пратчетт"
+      },
+    ],
+    title: "Посох и шляпа",
+    ISBN: "9785699166107",
+    translator: "И. Кравцова",
+    publisher: "Эксмо",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Терри",
+        lastName: "Пратчетт"
+      },
+    ],
+    title: "Незримые академики",
+    ISBN: "9785699699841",
+    translator: "В. С. Сергеева",
+    publisher: "Эксмо",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Габриэль Гарсиа",
+        lastName: "Маркес"
+      },
+    ],
+    title: "Сто лет одиночества",
+    ISBN: "9785271346873",
+    translator: "М. И. Былинкина",
+    publisher: "Астрель",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Генри",
+        lastName: "Марш"
+      },
+    ],
+    title: "Не навреди. Истории о жизни, смерти, нейрохирургии",
+    ISBN: "9785699830206",
+    translator: "Иван Чорный",
+    publisher: "Эксмо",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Адам",
+        lastName: "Кей"
+      },
+    ],
+    title: "Будет больно. История врача, ушедшего из профессии на пике карьеры",
+    ISBN: "9785040915750",
+    translator: "Иван Чорный",
+    publisher: "Эксмо",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ричард",
+        lastName: "Шеперд"
+      },
+    ],
+    title: "Неестественные причины. Записки судмедэксперта: громкие убийства, ужасающие теракты и запутанные дела",
+    ISBN: "9785040991624",
+    translator: "Иван Чорный",
+    publisher: "Эксмо",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Генри",
+        lastName: "Марш"
+      },
+    ],
+    title: "Призвание. О выборе, долге и нейрохирургии",
+    ISBN: "9785699957347",
+    translator: "Иван Чорный",
+    publisher: "Э",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "Пол",
+        lastName: "Каланити"
+      },
+    ],
+    title: "Когда дыхание растворяется в воздухе. Иногда судьбе все равно, что ты врач",
+    ISBN: "9785699902064",
+    translator: "К. В. Банников",
+    publisher: "Эксмо",
+    publishYear: "2019",
+  },
 ];
 
 export default booksStorage;
