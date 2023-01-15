@@ -271,7 +271,7 @@ const booksStorage = [
   },
   {
     authors: [{
-      firstName: "Михаил",
+      firstName: "Михаил Афанасьевич",
       lastName: "Булгаков"
     }],
     title: "Мастер и Маргарита",
@@ -281,11 +281,12 @@ const booksStorage = [
   },
   {
     authors: [{
-      firstName: "Михаил",
+      firstName: "Михаил Афанасьевич",
       lastName: "Булгаков"
     }],
     title: "Морфий. Повести и рассказы",
     ISBN: "9785041099138",
+    translator: "",
     publisher: "Эксмо",
     publishYear: "2022",
   },
@@ -296,6 +297,7 @@ const booksStorage = [
     }],
     title: "Мерзость",
     ISBN: "9785171471583",
+    translator: "Ю. Гольдберг",
     publisher: "АСТ",
     publishYear: "2022",
   },
@@ -2727,6 +2729,890 @@ const booksStorage = [
     translator: "К. В. Банников",
     publisher: "Эксмо",
     publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Франц",
+        lastName: "Кафка"
+      },
+    ],
+    title: "Лабиринт",
+    ISBN: "9785389023819",
+    translator: "Юрий Архипов",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "Махабхарата, или Сказание о великой битве потомков Бхараты",
+    ISBN: "9785389045538",
+    translator: "М. Пчелицев",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: "Вольтер"
+      },
+    ],
+    title: "Философские повести",
+    ISBN: "9785389031234",
+    translator: "Н. Дмитриев, Ф. Сологуб, Г. Блок",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Франц",
+        lastName: "Кафка"
+      },
+    ],
+    title: "Как строилась Китайская стена",
+    ISBN: "9785389018853",
+    translator: "Вера Станевич, Елена Маркович",
+    publisher: "Азбука",
+    publishYear: "2011",
+  },
+  {
+    authors: [
+      {
+        firstName: "Миямото",
+        lastName: "Мусаси"
+      },
+    ],
+    title: "Искусство самурая. Книга Пяти колец. Трактаты",
+    ISBN: "9785389030916",
+    translator: "с японского А. Фесюн, с английского А. Никитин",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Шарль",
+        lastName: "Бодлер"
+      },
+    ],
+    title: "Цветы зла. Стихотворения",
+    ISBN: "978538960562",
+    translator: "Эллис",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Огюст",
+        lastName: "Роден"
+      },
+    ],
+    title: "Беседы об искусстве",
+    ISBN: "9785389041967",
+    translator: "Л. Ефимов, Г. Соловьева",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Жан-Жак",
+        lastName: "Руссо"
+      },
+    ],
+    title: "Исповедь",
+    ISBN: "9785389027206",
+    translator: "Н. Бердяев, О. Вайнер",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: "Конфуций"
+      },
+    ],
+    title: "Суждения и беседы",
+    ISBN: "9785389014619",
+    translator: "П. С. Попов",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Борис",
+        lastName: "Пастернак"
+      },
+    ],
+    title: "Доктор Живаго",
+    ISBN: "9785389017245",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эдмон",
+        lastName: "Ростан"
+      },
+    ],
+    title: "Сирано де Бержерак. Героическая комедия в пяти действиях в стихах",
+    ISBN: "5352002136",
+    translator: "Елена Баевская",
+    publisher: "Азбука",
+    publishYear: "2003",
+  },
+  {
+    authors: [
+      {
+        firstName: "Бенедикт",
+        lastName: "Спиноза"
+      },
+    ],
+    title: "Этика",
+    ISBN: "9785389033825",
+    translator: "Я. М. Боровский, Н. А. Иванцов",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Борис",
+        lastName: "Виан"
+      },
+    ],
+    title: "Пена дней",
+    ISBN: "9785389047754",
+    translator: "Лилиана Лунгина",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эрнст Теодор Амадей",
+        lastName: "Гофман"
+      },
+    ],
+    title: "Житейские воззрения кота Мурра",
+    ISBN: "9785389059047",
+    translator: "А. Големба",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Михаил Афанасьевич",
+        lastName: "Булгаков"
+      },
+    ],
+    title: "Собачье сердце",
+    ISBN: "9785998505850",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джейн",
+        lastName: "Остин"
+      },
+    ],
+    title: "Эмма",
+    ISBN: "9785389019614",
+    translator: "Мария Кан",
+    publisher: "Азбука",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Виктор",
+        lastName: "Гюго"
+      },
+    ],
+    title: "Отверженные",
+    ISBN: "9785389049710",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Чезаре",
+        lastName: "Ломброзо"
+      },
+    ],
+    title: "Гениальность и помешательство",
+    ISBN: "9785389101388",
+    translator: "К. Тетюшинова",
+    publisher: "Азбука",
+    publishYear: "2015",
+  },
+  {
+    authors: [
+      {
+        firstName: "Жан де",
+        lastName: "Лафонтен"
+      },
+    ],
+    title: "Басни",
+    ISBN: "9785389109315",
+    translator: "Владимир Васильев, Майя Квятковская",
+    publisher: "Азбука",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир Владимирович",
+        lastName: "Набоков"
+      },
+    ],
+    title: "Отчаяние",
+    ISBN: "9785389056701",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Салман",
+        lastName: "Рушди"
+      },
+    ],
+    title: "Ярость",
+    ISBN: "9785367024029",
+    translator: "А. В. Челнокова",
+    publisher: "Лениздат",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир",
+        lastName: "Маяковский"
+      },
+    ],
+    title: "Во весь голос. Стихотворения. Поэмы",
+    ISBN: "9785445303701",
+    translator: "",
+    publisher: "Лениздат",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ихара",
+        lastName: "Сайкаку"
+      },
+    ],
+    title: "Пять женщин, предавшихся любви. История любовных похождений одинокой женщины. Новеллы",
+    ISBN: "9785905799778",
+    translator: "В. Н. Марков, Е. М. Пинус",
+    publisher: "Лениздат",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр Сергеевич",
+        lastName: "Грибоедов"
+      },
+    ],
+    title: "Горе от ума",
+    ISBN: "9785445300205",
+    translator: "",
+    publisher: "Лениздат",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Нил",
+        lastName: "Гейман"
+      },
+    ],
+    title: "Все новые сказки. Сборник",
+    ISBN: "9785171051525",
+    translator: "С. Силакова, М. Тогобецкая, Е. Мартинкевич, М. Глезерова, Н. Казакова, Н. Конча, М. Мелниченкова, А. Осокин",
+    publisher: "АСТ",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "Пелам Гренвилл",
+        lastName: "Вудхаус"
+      },
+    ],
+    title: "Дживс, вы - гений!",
+    ISBN: "9785170888252",
+    translator: "Ю. Жукова",
+    publisher: "АСТ",
+    publishYear: "2015",
+  },
+  {
+    authors: [
+      {
+        firstName: "Пелам Гренвилл",
+        lastName: "Вудхаус"
+      },
+    ],
+    title: "Этот неподражаемый Дживс!",
+    ISBN: "9785170947126",
+    translator: "А. Н. Балясников",
+    publisher: "АСТ",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Сомерсет",
+        lastName: "Моэм"
+      },
+    ],
+    title: "Театр",
+    ISBN: "9785170814282",
+    translator: "Г. Островская",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Артур",
+        lastName: "Хейли"
+      },
+    ],
+    title: "Аэропорт",
+    ISBN: "9785170861446",
+    translator: "Т. Кудрявцева, Т. Озерская",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: "Петроний"
+      },
+    ],
+    title: "Сатирикон",
+    ISBN: "9785389061736",
+    translator: "Б. Ярхо",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Артур",
+        lastName: "Шопенгауэр"
+      },
+    ],
+    title: "Метафизика половой любви",
+    ISBN: "9785389019454",
+    translator: "Ю. И. Айхенвальда",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Оскар",
+        lastName: "Уайльд"
+      },
+    ],
+    title: "Портрет Дориана Грея",
+    ISBN: "9785389012158",
+    translator: "М. Абкина",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Жан Поль",
+        lastName: "Сартр"
+      },
+    ],
+    title: "Тошнота",
+    ISBN: "9785170623143",
+    translator: "Ю. Я. Яхнина",
+    publisher: "АСТ",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эрнест",
+        lastName: "Хемингуэй"
+      },
+    ],
+    title: "Фиеста",
+    ISBN: "9785170673643",
+    translator: "В. Топер",
+    publisher: "АСТ",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джордж",
+        lastName: "Оруэлл"
+      },
+    ],
+    title: "1984. Скотный двор",
+    ISBN: "9785170647286",
+    translator: "В. Голышев, Л. Беспалова",
+    publisher: "АСТ",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джеймс",
+        lastName: "Джойс"
+      },
+    ],
+    title: "Портрет художника в юности",
+    ISBN: "9785170634767",
+    translator: "М. П. Богословская-Боброва",
+    publisher: "АСТ",
+    publishYear: "2010",
+  },
+  {
+    authors: [
+      {
+        firstName: "Терри",
+        lastName: "Пратчетт"
+      },
+    ],
+    title: "Кот без прикрас",
+    ISBN: "9785699569380",
+    translator: "Н. Аллунан",
+    publisher: "Эксмо",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Чарльз",
+        lastName: "Буковски"
+      },
+    ],
+    title: "Записки старого козла",
+    ISBN: "9785699628698",
+    translator: "Юрий Медведько",
+    publisher: "Эксмо",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эрнст Теодор Амадей",
+        lastName: "Гофман"
+      },
+    ],
+    title: "Золотой горшок. Крошка Цахес, по прозванию Цинноберг",
+    ISBN: "9785905799501",
+    translator: "А. А. Морозов, В. С. Соловьев",
+    publisher: "Лениздат",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дафна",
+        lastName: "Дюморье"
+      },
+    ],
+    title: "Синие линзы. Рассказы",
+    ISBN: "9785367024661",
+    translator: "А. А. Ставиская, Н. Н. Тихонов, Г. А. Островская",
+    publisher: "Лениздат",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дорис",
+        lastName: "Лессинг"
+      },
+    ],
+    title: "Кошки",
+    ISBN: "9785367024746",
+    translator: "Е. В. Топчий",
+    publisher: "Лениздат",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: "Стендаль"
+      },
+    ],
+    title: "Красное и черное",
+    ISBN: "9785445300274",
+    translator: "А. Н. Чеботаревская",
+    publisher: "Лениздат",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Кобо",
+        lastName: "Абэ"
+      },
+    ],
+    title: "Соженная карта",
+    ISBN: "9785367024005",
+    translator: "В. С. Гривнин",
+    publisher: "Лениздат",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Игорь Михайлович",
+        lastName: "Плаксин"
+      },
+    ],
+    title: "Ехал на ярмарку ухарь-купец",
+    ISBN: "9785989170371",
+    translator: "",
+    publisher: "Курск. Издательский дом ВИП",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: "Тэффи"
+      },
+    ],
+    title: "Юмористические рассказы",
+    ISBN: "9785960304917",
+    translator: "",
+    publisher: "СЗКЭО",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Вернер",
+        lastName: "Линдеманн"
+      },
+    ],
+    title: "Майк Олдфрид в кресле-качалке. Записки отца",
+    ISBN: "9785041097349",
+    translator: "О. Нацаренус",
+    publisher: "Эксмо",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Тиль",
+        lastName: "Линдеманн"
+      },
+    ],
+    title: "В тихой ночи. Лирика",
+    ISBN: "9785699919161",
+    translator: "Н. В. Мордвичева, В. В. Камедин",
+    publisher: "Э",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "Роальд",
+        lastName: "Даль"
+      },
+    ],
+    title: "Дорога в рай. Полное собрание рассказов",
+    ISBN: "9785389123816",
+    translator: "Игорь Богданов, Михаил Пчелинцев",
+    publisher: "Иностранка",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "Chanel. Catwalk",
+    ISBN: "9780500023440",
+    translator: "",
+    publisher: "Thames & Hudson",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Edmund",
+        lastName: "Goldzamt"
+      },
+    ],
+    title: "William Morris und die sozialen Ursprunge der modernen Architektur",
+    ISBN: "",
+    translator: "",
+    publisher: "VEB Verlag der Kunst",
+    publishYear: "1976",
+  },
+  {
+    authors: [
+      {
+        firstName: "Алан",
+        lastName: "Мур"
+      },
+    ],
+    title: "Иерусалим",
+    ISBN: "9785171023744",
+    translator: "Сергей Карпов",
+    publisher: "АСТ",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Бернар",
+        lastName: "Вербер"
+      },
+    ],
+    title: "Танатонавты",
+    ISBN: "9785041160715",
+    translator: "Игорь Судакевич",
+    publisher: "Эксмо",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Гордон",
+        lastName: "Рамзи"
+      },
+    ],
+    title: "Культ домашней еды: Завтраки, обеды, ужины",
+    ISBN: "9785389087637",
+    translator: "Е. Костина",
+    publisher: "Колибри",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эдвин",
+        lastName: "Лутц"
+      },
+    ],
+    title: "Начни рисовать. Пошаговые техники для тех, кто хочет стать художником за 5 минут",
+    ISBN: "9785001004929",
+    translator: "Е. Петрова",
+    publisher: "Манн, Иванов, Фербер",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "",
+    ISBN: "",
+    translator: "",
+    publisher: "",
+    publishYear: "",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джон Р.Р.",
+        lastName: "Толкин"
+      },
+    ],
+    title: "Возвращение короля",
+    ISBN: "9785170818051",
+    translator: "Н. Григорьева, В. Грушецкий",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Фёдор Петрович",
+        lastName: "Коровкин"
+      },
+    ],
+    title: "История древнего мира. Учебник для 5 класса средней школы",
+    ISBN: "509000353X",
+    translator: "",
+    publisher: "Просвещение",
+    publishYear: "1988",
+  },
+  {
+    authors: [
+      {
+        firstName: "Alexander",
+        lastName: "Pushkin"
+      },
+    ],
+    title: "Märchen",
+    ISBN: "9785966302337",
+    translator: "",
+    publisher: "Яркий город",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Жюль",
+        lastName: "Верн"
+      },
+    ],
+    title: "Таинственный остров",
+    ISBN: "",
+    translator: "Н. Немчинова, А. Худадова",
+    publisher: "Детская литература",
+    publishYear: "1984",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ховард Филлипс",
+        lastName: "Лавкрафт"
+      },
+    ],
+    title: "Некрономикон",
+    ISBN: "9785946980807",
+    translator: "Н. Бавина",
+    publisher: "Энигма",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Говард Филлипс",
+        lastName: "Лавкрафт"
+      },
+    ],
+    title: "Хребты безумия",
+    ISBN: "9785389067783",
+    translator: "О. Алякринской, И. Богданов, Л. Брилова",
+    publisher: "Иностранка",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Говард Филлипс",
+        lastName: "Лавкрафт"
+      },
+    ],
+    title: "Зов Ктулху",
+    ISBN: "9785389066076",
+    translator: "С. Антонов, И. Богданов, В. Дорогокупль и др.",
+    publisher: "Иностранка",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Борис",
+        lastName: "Акунин"
+      },
+    ],
+    title: "Азиатская европеизация. История Российского государства. Царь Петр Алексеевич",
+    ISBN: "9785170825721",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джеймс",
+        lastName: "Глик"
+      },
+    ],
+    title: "Путешестви во времени. История",
+    ISBN: "9785001009030",
+    translator: "Наталья Лисовая",
+    publisher: "Манн, Иванов и Фербер",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Клайв",
+        lastName: "Льюис"
+      },
+    ],
+    title: "Хроники Нарнии: Последняя битва. Три повести: Покоритель зари, или Плавание на край света. Серебряное кресло. Последняя битва",
+    ISBN: "9785699599622",
+    translator: "Т. Шапошникова, Е. Доброхотова-Майкова",
+    publisher: "Эксмо",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Клайв",
+        lastName: "Льюис"
+      },
+    ],
+    title: "Хроники Нарнии: начало истории. Четыре повести: Племянник Чародея. Лев, колдунья и платяной шкаф. Конь и его мальчик. Принц Каспиан",
+    ISBN: "9785699627967",
+    translator: "Г. Островская, Н. Трауберг, Е. Доброхотова-Майкова",
+    publisher: "Эксмо",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Леонид Алексеевич",
+        lastName: "Филатов"
+      },
+    ],
+    title: "Про Федота-стрельца, удалого молодца. Пьесы, рассказы, стихи",
+    ISBN: "9785170563432",
+    translator: "",
+    publisher: "АСТ",
+    publishYear: "2009",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дин",
+        lastName: "Кунц"
+      },
+    ],
+    title: "Шорохи",
+    ISBN: "5655008742",
+    translator: "",
+    publisher: "МП \"ТИМП\"",
+    publishYear: "1993",
   },
 ];
 
