@@ -3913,6 +3913,248 @@ const booksStorage = [
     publisher: "Азбука",
     publishYear: "2013",
   },
+  {
+    authors: [
+      {
+        firstName: "Олдос",
+        lastName: "Хаксли"
+      },
+    ],
+    title: "Обезьяна и сущность",
+    ISBN: "9785170984114",
+    translator: "И. Г. Русецкий",
+    publisher: "АСТ",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Франц",
+        lastName: "Кафка"
+      },
+    ],
+    title: "Пропавший без вести (Америка)",
+    ISBN: "9785751617936",
+    translator: "М. Рудницкий",
+    publisher: "Текст",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Тереза",
+        lastName: "Финни"
+      },
+    ],
+    title: "Эпизод со всеми рецептами. Кулинарная книга сериала \"Друзья\"",
+    ISBN: "9785041121761",
+    translator: "Екатерина Глушко",
+    publisher: "Эксмо",
+    publishYear: "2023",
+  },
+  {
+    authors: [
+      {
+        firstName: "Роберт Андерсон",
+        lastName: "Тьюсли"
+      },
+    ],
+    title: "Рецепты Средиземья. Кулинарная книга по миру Толкина",
+    ISBN: "9785041216726",
+    translator: "Алена Щербина",
+    publisher: "Эксмо",
+    publishYear: "2022",
+  },
+  {
+    authors: [
+      {
+        firstName: "Иоганн Вольфганг",
+        lastName: "фон Гёте"
+      },
+    ],
+    title: "Фауст",
+    ISBN: "9785171525583",
+    translator: "Н. А. Холодковский",
+    publisher: "АСТ",
+    publishYear: "2023",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "Cabinets of wonder",
+    ISBN: "9781419705540",
+    translator: "",
+    publisher: "Abrams",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Наталья Владимировна",
+        lastName: "Василенко"
+      },
+    ],
+    title: "Шедевры натюрморта",
+    ISBN: "9785996359271",
+    translator: "",
+    publisher: "БИНОМ",
+    publishYear: "2020",
+  },
+  {
+    authors: [
+      {
+        firstName: "Максим",
+        lastName: "Кац"
+      },
+    ],
+    title: "История новой России. От коммунизма через демократию к автократии",
+    ISBN: "9785001898085",
+    translator: "",
+    publisher: "Перо",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Артур Конан",
+        lastName: "Дойл"
+      },
+    ],
+    title: "Приключения Шерлока Холмса",
+    ISBN: "9785928728366",
+    translator: "Никалой Чуковский, Марина Чуковская, Дебора Лившиц",
+    publisher: "Лабиринт пресс",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Ларри",
+        lastName: "Гоник"
+      },
+    ],
+    title: "Матан. Краткий курс в комиксах",
+    ISBN: "9785389120747",
+    translator: "Татьяна Самсонова",
+    publisher: "Колибри",
+    publishYear: "2017",
+  },
+  {
+    authors: [
+      {
+        firstName: "",
+        lastName: ""
+      },
+    ],
+    title: "Сказки в шедеврах русской иллюстрации",
+    ISBN: "9785001851646",
+    translator: "",
+    publisher: "Просвещение",
+    publishYear: "2023",
+  },
+  {
+    authors: [
+      {
+        firstName: "Станислав",
+        lastName: "Лем"
+      },
+    ],
+    title: "Футуролигеский конгресс. Мир на Земле",
+    ISBN: "9785170691685",
+    translator: "К. В. Душенко, В. П. Вайсброт",
+    publisher: "АСТ",
+    publishYear: "2011",
+  },
+  {
+    authors: [
+      {
+        firstName: "Виктор",
+        lastName: "Олифер"
+      },
+      {
+        firstName: "Наталья",
+        lastName: "Олифер"
+      },
+    ],
+    title: "Компьютерные сети. Приципы, технологии, протоколы",
+    ISBN: "9785496019675",
+    translator: "",
+    publisher: "Питер",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр Николаевич",
+        lastName: "Васильев"
+      },
+    ],
+    title: "Python на примерах. Практический курс по программированию",
+    ISBN: "9785943879951",
+    translator: "",
+    publisher: "Наука и Техника",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Боб",
+        lastName: "Батчелор"
+      },
+    ],
+    title: "Стэн Ли. Создатель великой вселенной Marvel",
+    ISBN: "9785040887156",
+    translator: "Д. Романовский",
+    publisher: "Эксмо",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Офели",
+        lastName: "Нэман"
+      },
+    ],
+    title: "Вино. Иллюстрированный курс",
+    ISBN: "9785699763344",
+    translator: "И. И. Бородина",
+    publisher: "Э",
+    publishYear: "2016",
+  },
+  {
+    authors: [
+      {
+        firstName: "Алан",
+        lastName: "Мур"
+      },
+      {
+        firstName: "Дэйв",
+        lastName: "Гибсон"
+      },
+    ],
+    title: "Хранители",
+    ISBN: "9785389045323",
+    translator: "М. Юнгер, И. Смирнова",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Стивен",
+        lastName: "Клири"
+      },
+    ],
+    title: "Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование",
+    ISBN: "9785446115723",
+    translator: "Е. Матвеев",
+    publisher: "Питер",
+    publishYear: "2020",
+  },
 ];
 
 export default booksStorage;
