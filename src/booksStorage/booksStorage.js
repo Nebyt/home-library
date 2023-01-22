@@ -495,7 +495,7 @@ const booksStorage = [
   },
   {
     authors: [{
-      firstName: "Владимир",
+      firstName: "Владимир Владимирович",
       lastName: "Набоков"
     }],
     title: "Бледный огонь",
@@ -2092,7 +2092,7 @@ const booksStorage = [
   {
     authors: [
       {
-        firstName: "Владимир",
+        firstName: "Владимир Владимирович",
         lastName: "Набоков"
       },
     ],
@@ -3613,6 +3613,305 @@ const booksStorage = [
     translator: "",
     publisher: "МП \"ТИМП\"",
     publishYear: "1993",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэниел",
+        lastName: "Киз"
+      },
+    ],
+    title: "Цветы для Элджернона",
+    ISBN: "9785699349739",
+    translator: "Сергей Шаров",
+    publisher: "Эксмо",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джонотан Сафран",
+        lastName: "Фоер"
+      },
+    ],
+    title: "Жутко громко и запредельно близко",
+    ISBN: "9785699691098",
+    translator: "В. Арканов",
+    publisher: "Эксмо",
+    publishYear: "2015",
+  },
+  {
+    authors: [
+      {
+        firstName: "Клайв",
+        lastName: "Льюис"
+      },
+    ],
+    title: "Лев, колдунья и платяной шкаф",
+    ISBN: "",
+    translator: "Г. Островская",
+    publisher: "Детская литература",
+    publishYear: "1978",
+  },
+  {
+    authors: [
+      {
+        firstName: "Айзек",
+        lastName: "Азимов"
+      },
+    ],
+    title: "Краткая история биологии. От алхимии до генетики",
+    ISBN: "9785227086464",
+    translator: "Л. А. Игоревский",
+    publisher: "Центрполиграф",
+    publishYear: "2018",
+  },
+  {
+    authors: [
+      {
+        firstName: "Джеймс",
+        lastName: "Уотсон"
+      },
+    ],
+    title: "Двойная спираль. Открытие структуры ДНК",
+    ISBN: "9785171149031",
+    translator: "О. Перфильев",
+    publisher: "АСТ",
+    publishYear: "2019",
+  },
+  {
+    authors: [
+      {
+        firstName: "Алан",
+        lastName: "Тьюринг"
+      },
+    ],
+    title: "Вычислительные машины и разум",
+    ISBN: "9785171059705",
+    translator: "К. Королев",
+    publisher: "АСТ",
+    publishYear: "2021",
+  },
+  {
+    authors: [
+      {
+        firstName: "Фрэнсис Скотт",
+        lastName: "Фицджеральд"
+      },
+    ],
+    title: "Последний Магнат. Рассказы",
+    ISBN: "9785389090422",
+    translator: "И. Архангельская, С. Белокриницкая, И. Бернштейн, М. Загота, Татьяна Иванова, А. Кистяковский, М. Кореневая, Т. Луковникова, М. Муравьев, Т. Озерская, О. Сорока, В. Харитонов, В. Хинкис",
+    publisher: "Азбука",
+    publishYear: "2015",
+  },
+  {
+    authors: [
+      {
+        firstName: "Фрэнсис Скотт",
+        lastName: "Фицджеральд"
+      },
+    ],
+    title: "Великий Гэтсби",
+    ISBN: "9785389047280",
+    translator: "М. Лорие, Е. Калашникова",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Данте",
+        lastName: "Алигьери"
+      },
+    ],
+    title: "Божественная комедия",
+    ISBN: "9785389058675",
+    translator: "Ольга Чюмина",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Дэниел",
+        lastName: "Дефо"
+      },
+    ],
+    title: "Робинзон Крузо",
+    ISBN: "9785389068872",
+    translator: "М. Шишмарева",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир Владимирович",
+        lastName: "Набоков"
+      },
+    ],
+    title: "Защита Лужина",
+    ISBN: "9785389075566",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Владимир Владимирович",
+        lastName: "Набоков"
+      },
+    ],
+    title: "Камера обскура",
+    ISBN: "9785389079854",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Иван Сергеевич",
+        lastName: "Тургенев"
+      },
+    ],
+    title: "Отцы и дети",
+    ISBN: "9785389049963",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Федор Михайлович",
+        lastName: "Достоевский"
+      },
+    ],
+    title: "Записки из мертвого дома",
+    ISBN: "9785389068889",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Марк",
+        lastName: "Твен"
+      },
+    ],
+    title: "Приключения Тома Сойера и Гекльберри Финна",
+    ISBN: "9785389049208",
+    translator: "Н. Дарузес",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Михаил Юрьевич",
+        lastName: "Лермонтов"
+      },
+    ],
+    title: "Герой нашего времени",
+    ISBN: "9785389049048",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Даниил Иванович",
+        lastName: "Хармс"
+      },
+    ],
+    title: "Случаи и вещи. Сборник",
+    ISBN: "9785389052864",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2013",
+  },
+  {
+    authors: [
+      {
+        firstName: "Лев Николаевич",
+        lastName: "Толстой"
+      },
+    ],
+    title: "Война и мир. Том 1-2",
+    ISBN: "9785389071254",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Лев Николаевич",
+        lastName: "Толстой"
+      },
+    ],
+    title: "Война и мир. Том 3-4",
+    ISBN: "9785389071261",
+    translator: "",
+    publisher: "Азбука",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Александр Сергеевич",
+        lastName: "Грибоедов"
+      },
+    ],
+    title: "Сочинения",
+    ISBN: "5280000604",
+    translator: "",
+    publisher: "Художественная литература",
+    publishYear: "1988",
+  },
+  {
+    authors: [
+      {
+        firstName: "Олдос",
+        lastName: "Хаксли"
+      },
+    ],
+    title: "О дивный мир",
+    ISBN: "9785170628230",
+    translator: "О. Сорока",
+    publisher: "АСТ",
+    publishYear: "2014",
+  },
+  {
+    authors: [
+      {
+        firstName: "Эдгар Алан",
+        lastName: "По"
+      },
+    ],
+    title: "Падение дома Ашеров",
+    ISBN: "9785389047808",
+    translator: "З. Александрова, К. Бальмонт, М. Беккер и др.",
+    publisher: "Азбука",
+    publishYear: "2012",
+  },
+  {
+    authors: [
+      {
+        firstName: "Гомер",
+        lastName: ""
+      },
+    ],
+    title: "Одиссея",
+    ISBN: "9785389057319",
+    translator: "В. Жуковский",
+    publisher: "Азбука",
+    publishYear: "2013",
   },
 ];
 
